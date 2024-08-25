@@ -43,6 +43,10 @@ a dazzling custom card for controlling signalrgb through home assistant. this ca
 ### 📎 [contexter](https://github.com/hyperb1iss/contexter)
 a versatile **Chrome extension and cli** for quickly copying code into llms. whether you’re working on a complex bug or exploring new ideas, contexter helps you wield ai’s power with ease.
 
+### 🛠️ [dotfiles](https://github.com/hyperb1iss/dotfiles)
+my personal **dotfiles** that i use everyday
+
+
 ## 🌙 maintenance-only projects
 
 ### 🎮 [uchroma](https://github.com/hyperb1iss/uchroma)
