@@ -1,4 +1,4 @@
-# 🌠 𝓱 𝔂 𝓹 𝓮 𝓻 𝓫 𝟏 𝓲 𝓼 𝓼
+# 🌠 𝓱 𝔂 𝓹 𝓮 𝓻 𝓫 𝟏 𝓲 𝓼 𝓼 ✨ ⎊ ⨳ ✵ ⊹
 
 <p align="center">
     <a href="https://hyperbliss.tech"><img src="https://img.shields.io/badge/-website-0a66c2?style=flat-square&logo=internetarchive&logoColor=white" /></a>
@@ -6,17 +6,17 @@
     <a href="https://linkedin.com/in/hyperb1iss"><img src="https://img.shields.io/badge/-linkedin-0a66c2?style=flat-square&logo=linkedin&logoColor=white" /></a>
 </p>
 
-hey there! i'm **Stefanie Jane**, aka **hyperb1iss**—a software engineering leader, open-source advocate, and creative tech enthusiast based in Seattle. i love making stuff that blends purpose with creativity, especially at the edge of hardware and software. and i’m all about building tools that make tech more fun and accessible.
+Hey there! I'm **Stefanie Jane**, aka **hyperb1iss**—a software engineering leader, open-source advocate, and creative tech enthusiast based in Seattle. I love making stuff that blends purpose with creativity, especially at the edge of hardware and software. And I’m all about building tools that make tech more fun and accessible.
 
-## 🌟 me!!
+## 🌟 Me!!
 
-- **💻 principal software engineer** at [Mason](https://bymason.com), where i lead our team in developing cutting-edge technology solutions.
-- **📱 created CyanogenMod** (now [LineageOS](https://lineageos.org/)), bringing freedom and customization to millions of Android devices.
-- **🔧 open-source enthusiast** passionate about projects that enhance developer productivity and device customization.
-- **💜 inclusive AF**—proudly advocating for inclusivity and diversity in tech.
-- **🛼 roller derby player**, **🎶 electronic music producer**, and **🖨️ 3d printing enthusiast**—always finding new ways to blend tech with creativity.
+- **💻 Principal software engineer** at [Mason](https://bymason.com), where I lead our team in developing mobile technology solutions.
+- **📱 Created CyanogenMod** (now [LineageOS](https://lineageos.org/)), bringing freedom and customization to millions of Android devices.
+- **🔧 Open-source enthusiast** passionate about projects that enhance developer productivity and device customization.
+- **💜 Inclusive AF**—proudly advocating for inclusivity and diversity in tech.
+- **🛼 Roller derby player**, **🎶 Electronic music producer**, and **🖨️ 3d printing nerd**—and a lot of other stuff!
 
-## 🚀 current projects
+## 🚀 Current projects
 
 <p align="center">
     <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/-rust-000000?style=flat-square&logo=rust&logoColor=white"/></a>
@@ -29,40 +29,40 @@ hey there! i'm **Stefanie Jane**, aka **hyperb1iss**—a software engineering le
 </p>
 
 ### ✨ [git-iris](https://github.com/hyperb1iss/git-iris)
-an **ai-accelerated git workflow tool** that brings intelligence and efficiency to your version control game. automate your commits, streamline your branching, generate release notes, and never miss a beat in your development cycle. ugly commits are a thing of the past!
+An **ai-accelerated git workflow tool** that brings intelligence and efficiency to your version control game. Automate your commits, streamline your branching, generate release notes, and never miss a beat in your development cycle. Ugly commits are a thing of the past!
 
 ### 🏠 [signalrgb-homeassistant](https://github.com/hyperb1iss/signalrgb-homeassistant)
-bringing your home to life with the **SignalRGB integration for home assistant**. control and synchronize your rgb lighting with your smart home devices, creating immersive environments tailored to your lifestyle.
+Bringing your home to life with the **SignalRGB integration for Home Assistant**. Control and synchronize your rgb lighting with your smart home devices, creating immersive environments tailored to your lifestyle.
 
 ### 🐍 [signalrgb-python](https://github.com/hyperb1iss/signalrgb-python)
-a python api client for **SignalRGB Pro**, giving developers direct access to control their lighting setups programmatically. perfect for integrating custom lighting effects into your projects.
+A python api client for **SignalRGB Pro**, giving developers direct access to control their lighting setups programmatically. perfect for integrating custom lighting effects into your projects.
 
 ### 💡 [hyper-light-card](https://github.com/hyperb1iss/hyper-light-card)
-a dazzling custom card for controlling signalrgb through home assistant. this card offers intuitive and visually stunning controls for your lighting system, making home automation as vibrant as it should be.
+A dazzling custom card for controlling SignalRGB through Home Assistant. this card offers intuitive and visually stunning controls for your lighting system, making home automation as vibrant as it should be.
 
 ### 📎 [contexter](https://github.com/hyperb1iss/contexter)
-a versatile **Chrome extension and cli** for quickly copying code into llms. whether you’re working on a complex bug or exploring new ideas, contexter helps you wield ai’s power with ease.
+A versatile **Chrome extension and cli** for quickly copying code into llms. Whether you’re working on a complex bug or exploring new ideas, contexter helps you wield ai’s power with ease.
 
 ### 🛠️ [dotfiles](https://github.com/hyperb1iss/dotfiles)
-my personal **dotfiles** that i use everyday
+My personal **dotfiles** that I use everyday
 
 
-## 🌙 maintenance-only projects
+## 🌙 Maintenance-only projects
 
 ### 🎮 [uchroma](https://github.com/hyperb1iss/uchroma)
-an advanced driver for **Razer Chroma hardware on Linux**, ensuring your peripherals shine just as bright on linux as they do on other platforms.
+An advanced driver for **Razer Chroma hardware on Linux**, ensuring your peripherals shine just as bright on linux as they do on other platforms.
 
 ### 🖥️ [vncflinger](https://github.com/hyperb1iss/vncflinger)
-a fast system-level **vnc server for Android** that provides remote access to your android devices at the OS level
+A fast system-level **vnc server for Android** that provides remote access to your android devices at the OS level
 
-### 🌠 other contributions
-i also dabble in packaging python libraries for debian/ubuntu and contribute to various other open-source odds and ends. 
+### 🌠 Other contributions
+I also dabble in packaging Python libraries for Debian/Ubuntu and contribute to various other open-source odds and ends. 
 [check out my repos!](https://github.com/hyperb1iss?tab=repositories)
 
-## 🎤 talks & keynotes
+## 🎤 Talks & keynotes
 
-i've shared my experiences and insights on **embedded systems**, **android roms**, **android internals**, and **audio programming** at conferences and product launches worldwide.
+I've shared my experiences and insights on **embedded systems**, **android roms**, **android internals**, and **audio programming** at conferences and product launches worldwide.
 
-## 🌌 let's connect!
+## 🌌 Let's connect!
 
-find me at any of my links! if you like my work, [buy me a Monster Ultra Violet](https://ko-fi.com/hyperb1iss)! ⚡️
+Find me at any of my links! If you like my work, [buy me a Monster Ultra Violet](https://ko-fi.com/hyperb1iss)! ⚡️
