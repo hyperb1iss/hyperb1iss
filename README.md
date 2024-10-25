@@ -6,15 +6,15 @@
     <a href="https://linkedin.com/in/hyperb1iss"><img src="https://img.shields.io/badge/-linkedin-0a66c2?style=flat-square&logo=linkedin&logoColor=white" /></a>
 </p>
 
-Hey there! I'm **Stefanie Jane**, aka **hyperb1iss**—a software engineering leader, open-source advocate, and creative tech enthusiast based in Seattle. I love making stuff that blends purpose with creativity, especially at the edge of hardware and software. And I’m all about building tools that make tech more fun and accessible.
+Hey there! I'm **Stefanie Jane**, aka **hyperb1iss**— a creative tech person based in Seattle. I do a little of everything when it comes to software, but I've been focused on the mobile space for the last decade.
 
 ## 🌟 Me!!
 
-- **💻 Principal software engineer** at [Mason](https://bymason.com), where I lead our team in developing mobile technology solutions.
-- **📱 Created CyanogenMod** (now [LineageOS](https://lineageos.org/)), bringing freedom and customization to millions of Android devices.
-- **🔧 Open-source enthusiast** passionate about projects that enhance developer productivity and device customization.
-- **💜 Inclusive AF**—proudly advocating for inclusivity and diversity in tech.
-- **🛼 Roller derby player**, **🎶 Electronic music producer**, and **🖨️ 3d printing nerd**—and a lot of other stuff!
+- **💻 Principal software engineer** at [Mason](https://mason.co), working on some pretty cool stuff.
+- **📱 Created CyanogenMod** (now [LineageOS](https://lineageos.org/)), a little revolution!
+- **🔧 Open-source**- check out my repos!
+- **💜 Inclusive**— we're all in this together.
+- **🛼 Roller derby**, **🎶 Electronic music**, **🖨️ 3d printing**
 
 ## 🚀 Current projects
 
@@ -44,24 +44,24 @@ A dazzling custom card for controlling SignalRGB through Home Assistant. this ca
 A versatile **Chrome extension and cli** for quickly copying code into llms. Whether you’re working on a complex bug or exploring new ideas, contexter helps you wield ai’s power with ease.
 
 ### 🛠️ [dotfiles](https://github.com/hyperb1iss/dotfiles)
-My personal **dotfiles** that I use everyday
+My personal **dotfiles** that I use everyday, with some unique features and lots of style.
 
 
 ## 🌙 Maintenance-only projects
 
 ### 🎮 [uchroma](https://github.com/hyperb1iss/uchroma)
-An advanced driver for **Razer Chroma hardware on Linux**, ensuring your peripherals shine just as bright on linux as they do on other platforms.
+A driver for **Razer Chroma hardware on Linux**, with an extensible animation engine. RGBees!
 
 ### 🖥️ [vncflinger](https://github.com/hyperb1iss/vncflinger)
-A fast system-level **vnc server for Android** that provides remote access to your android devices at the OS level
+A fast system-level **vnc server for Android** that provides remote access to your Android devices at the OS level
 
 ### 🌠 Other contributions
-I also dabble in packaging Python libraries for Debian/Ubuntu and contribute to various other open-source odds and ends. 
+I package some Python libraries for Debian/Ubuntu and contribute to various other open-source odds and ends. 
 [check out my repos!](https://github.com/hyperb1iss?tab=repositories)
 
 ## 🎤 Talks & keynotes
 
-I've shared my experiences and insights on **embedded systems**, **android roms**, **android internals**, and **audio programming** at conferences and product launches worldwide.
+I've shared my experiences and insights on **embedded systems**, **Android roms**, **Android internals**, and **audio programming** at conferences and product launches worldwide.
 
 ## 🌌 Let's connect!
 
