@@ -13,7 +13,7 @@ Hey there! I'm **Stefanie Jane**, aka **hyperb1iss**— a creative tech person b
 
 - **💻 Principal software engineer** of 25 years, working on some pretty cool stuff.
 - **📱 Created CyanogenMod** (now [LineageOS](https://lineageos.org/)), a little revolution!
-- **🔧 Open-source**- check out my repos!
+- **🔧 Open-source**- [*star* and check out my repos!](https://github.com/hyperb1iss?tab=repositories)
 
 ## 🔮 Current projects
 
@@ -88,7 +88,6 @@ A fast system-level **vnc server for Android** that provides remote access to yo
 ### 🌠 Other contributions
 
 I package some Python libraries for Debian/Ubuntu and contribute to various other open-source odds and ends.
-[check out my repos!](https://github.com/hyperb1iss?tab=repositories)
 
 ## 🎤 Talks & keynotes
 
