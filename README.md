@@ -7,13 +7,15 @@
     <a href="https://linkedin.com/in/hyperb1iss"><img src="https://img.shields.io/badge/LinkedIn-c0e0ff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a66c2" /></a>
 </p>
 
-Hey there! I'm **Stefanie Jane**, aka **hyperb1iss**— a creative tech person based in Seattle. I do a little of everything when it comes to software, but I've been focused on the mobile space for the last decade.
+Hey there! I'm **Stefanie Jane**, aka **hyperb1iss**— a creative tech person based in Seattle. I'm
+passionate about building awesome tools to help build stuff faster, but what I really love is making
+art with code.
 
 ## 🌟 Me!!
 
 - **💻 Principal software engineer** of 25 years, working on some pretty cool stuff.
 - **📱 Created CyanogenMod** (now [LineageOS](https://lineageos.org/)), a little revolution!
-- **🔧 Open-source**- [*star* and check out my repos!](https://github.com/hyperb1iss?tab=repositories)
+- **🔧 Open-source**- [_star_ and check out my repos!](https://github.com/hyperb1iss?tab=repositories)
 
 ## 🔮 Current projects
 
