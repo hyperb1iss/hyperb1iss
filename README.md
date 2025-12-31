@@ -17,7 +17,7 @@ art with code.
 - **📱 Created CyanogenMod** (now [LineageOS](https://lineageos.org/)), a little revolution!
 - **🔧 Open-source**- [_star_ and check out my repos!](https://github.com/hyperb1iss?tab=repositories)
 
-## 🔮 Current projects
+## 🔮 Current Projects
 
 <p align="center">
     <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/-rust-ffd0b0?style=for-the-badge&logo=rust&logoColor=white&labelColor=8b4513"/></a>
@@ -29,63 +29,46 @@ art with code.
     <a href="https://www.java.com/"><img src="https://img.shields.io/badge/-java-ffb0c0?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=ed8b00"/></a>
 </p>
 
-### ✨ [git-iris](https://github.com/hyperb1iss/git-iris)
+### 🤖 AI & Developer Tools
 
-An **AI-accelerated git workflow tool** that brings intelligence and efficiency to your version control game. Automate your commits, generate release notes and changelogs, and never miss a beat in your development cycle. I'm using it for all my projects now!
+- 🔮 [git-iris](https://github.com/hyperb1iss/git-iris) — AI-powered git workflow with smart commits, changelogs & code reviews
+- 🤖 [droidmind](https://github.com/hyperb1iss/droidmind) — MCP bridge for AI ↔ Android device control & debugging
+- 💬 [q](https://github.com/hyperb1iss/q) — Minimal Claude CLI with pipe mode, TUI & agent capabilities
+- 🧪 [agents](https://github.com/hyperb1iss/agents) — 59 specialized AI agents for rapid development with Claude Code
+- 📎 [contexter](https://github.com/hyperb1iss/contexter) — Extract codebase context for LLMs via REST API, Chrome extension & CLI
 
-### 🤖 [droidmind](https://github.com/hyperb1iss/droidmind)
+### ⚡ SilkCircuit
 
-A powerful bridge between **AI assistants and Android devices**, enabling control, debugging, and system analysis through natural language. By implementing the Model Context Protocol (MCP), DroidMind allows AI models to directly interact with Android devices via ADB in a secure, structured way.
+My signature electric aesthetic across platforms
 
-### 🧜‍♀️ [siren](https://github.com/hyperb1iss/siren)
+- 🌃 [silkcircuit-nvim](https://github.com/hyperb1iss/silkcircuit-nvim) — Vibrant Neovim colorscheme with 5 variants & 40+ plugin support
+- 🏠 [silkcircuit-theme](https://github.com/hyperb1iss/silkcircuit-theme) — Neon-glowing Home Assistant theme, available on HACS
 
-A powerful **frontend for multiple linting tools** that makes maintaining code quality a delightful experience. Siren draws developers in with beautiful vibrant output, smart defaults, and an intuitive interface - making code quality standards irresistible to adopt.
+### 💡 SignalRGB Stuff
 
-### 🏠 [signalrgb-homeassistant](https://github.com/hyperb1iss/signalrgb-homeassistant)
+Go FULL RGB with my typescript framework for building custom effects, and Home Assistant integration
 
-Bringing your home to life with the **SignalRGB integration for Home Assistant**. Control and synchronize your rgb lighting with your smart home devices, creating immersive environments tailored to your lifestyle.
+- 🎨 [lightscript-workshop](https://github.com/hyperb1iss/lightscript-workshop) — TypeScript framework for custom SignalRGB effects with WebGL
+- 🐍 [signalrgb-python](https://github.com/hyperb1iss/signalrgb-python) — Python client & CLI for SignalRGB Pro
+- 🏠 [signalrgb-homeassistant](https://github.com/hyperb1iss/signalrgb-homeassistant) — Home Assistant integration
+- 💡 [hyper-light-card](https://github.com/hyperb1iss/hyper-light-card) — Custom HA card with dynamic color-aware UI
 
-### 💡 [hyper-light-card](https://github.com/hyperb1iss/hyper-light-card)
+### 🛠️ Developer Utilities
 
-A dazzling **custom card for controlling SignalRGB through Home Assistant**. This card offers intuitive and visually stunning controls for your lighting system, making home automation as vibrant as it should be.
+- 🔧 [next-dynenv](https://github.com/hyperb1iss/next-dynenv) — Runtime environment variables for Next.js — one build, many deploys
+- 🌀 [aeonsync](https://github.com/hyperb1iss/aeonsync) — Flexible remote backup with incremental snapshots & smart retention
+- 🧜‍♀️ [siren](https://github.com/hyperb1iss/siren) — Unified linting frontend for 5+ languages with vibrant output
+- 🔪 [git-surgeon](https://github.com/hyperb1iss/git-surgeon) — Safe, complex git history operations — scrub secrets, rewrite authors
+- 😺 [chromacat](https://github.com/hyperb1iss/chromacat) — Terminal colorizer with 40+ themes & trippy gradient animations
 
-### 🐍 [signalrgb-python](https://github.com/hyperb1iss/signalrgb-python)
+### 🖥️ Dotfiles
 
-A python api client for **SignalRGB Pro**, giving developers direct access to control their lighting setups programmatically. perfect for integrating custom lighting effects into your projects.
+- 🛠️ [dotfiles](https://github.com/hyperb1iss/dotfiles) — Cross-platform dev environment with SilkCircuit styling & modern CLI tools
 
-### 🌃 [silkcircuit-theme](https://github.com/hyperb1iss/silkcircuit-theme)
+## 🌙 Legacy Projects
 
-A vibrant, **femme-forward theme for Home Assistant**, glowing with neon elegance, sleek UI elements, and subtle digital charm. Immerse yourself in a high-tech, luminous dashboard experience that's as stylish as it is functional.
-
-### 🔪 [git-surgeon](https://github.com/hyperb1iss/git-surgeon)
-
-A powerful command-line tool for safely performing **complex and potentially destructive operations on git repositories**. Remove sensitive files or patterns from entire git history, truncate repository history while preserving state, and update author information across history.
-
-### 🌀 [aeonsync](https://github.com/hyperb1iss/aeonsync)
-
-A **powerful and flexible remote backup tool** for developers and system administrators. With features like incremental backups, smart retention policies, and version control, it makes keeping your data safe a breeze. Perfect for home offices, web servers, and development workstations.
-
-### 😺 [chromacat](https://github.com/hyperb1iss/chromacat)
-
-A **turbocharged terminal colorizer** written in Rust that brings stunning gradient patterns and animations to your command-line experience. With 40+ built-in themes, 12+ pattern types, and smooth animations, it makes your terminal truly fabulous! Think `lolcat` but with superpowers!
-
-### 📎 [contexter](https://github.com/hyperb1iss/contexter)
-
-A versatile **Chrome extension and cli** for quickly copying code into llms. Whether you're working on a complex bug or exploring new ideas, contexter helps you wield ai's power with ease.
-
-### 🛠️ [dotfiles](https://github.com/hyperb1iss/dotfiles)
-
-My personal **dotfiles** that I use everyday, with some unique features and lots of style.
-
-## 🌙 Maintenance-only projects
-
-### 🎮 [uchroma](https://github.com/hyperb1iss/uchroma)
-
-A driver for **Razer Chroma hardware on Linux**, with an extensible animation engine. RGBees!
-
-### 🖥️ [vncflinger](https://github.com/hyperb1iss/vncflinger)
-
-A fast system-level **vnc server for Android** that provides remote access to your Android devices at the OS level
+- 🎮 [uchroma](https://github.com/hyperb1iss/uchroma) — Linux driver for Razer Chroma with animation engine
+- 🖥️ [vncflinger](https://github.com/hyperb1iss/vncflinger) — System-level VNC server for Android
 
 ### 🌠 Other contributions
 
