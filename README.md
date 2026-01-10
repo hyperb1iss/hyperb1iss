@@ -31,7 +31,8 @@ art with code.
 
 ### 🤖 AI & Developer Tools
 
-- 🔮 [git-iris](https://github.com/hyperb1iss/git-iris) — AI-powered git workflow with smart commits, changelogs & code reviews
+- 🔮 [sibyl](https://github.com/hyperb1iss/sibyl) — Collective intelligence runtime with persistent memory, agent orchestration & knowledge graphs
+- ✨ [git-iris](https://github.com/hyperb1iss/git-iris) — AI-powered git workflow with smart commits, changelogs & code reviews
 - 🤖 [droidmind](https://github.com/hyperb1iss/droidmind) — MCP bridge for AI ↔ Android device control & debugging
 - 💬 [q](https://github.com/hyperb1iss/q) — Minimal Claude CLI with pipe mode, TUI & agent capabilities
 - 🧪 [agents](https://github.com/hyperb1iss/agents) — 59 specialized AI agents for rapid development with Claude Code
@@ -39,16 +40,23 @@ art with code.
 
 ### ⚡ SilkCircuit
 
-My signature electric aesthetic across platforms
+My signature electric aesthetic dev environment across platforms
 
 - 🌃 [silkcircuit-nvim](https://github.com/hyperb1iss/silkcircuit-nvim) — Vibrant Neovim colorscheme with 5 variants & 40+ plugin support
 - 🏠 [silkcircuit-theme](https://github.com/hyperb1iss/silkcircuit-theme) — Neon-glowing Home Assistant theme, available on HACS
+- 🛠️ [dotfiles](https://github.com/hyperb1iss/dotfiles) — Cross-platform dev environment with SilkCircuit styling & modern CLI tools
+
+### 🎨 Creative Coding
+
+Art with code — visual effects, terminal aesthetics, and generative experiments
+
+- 🎨 [lightscript-workshop](https://github.com/hyperb1iss/lightscript-workshop) — TypeScript framework for custom SignalRGB effects with WebGL
+- 😺 [chromacat](https://github.com/hyperb1iss/chromacat) — Terminal colorizer with 40+ themes & trippy gradient animations
 
 ### 💡 SignalRGB Stuff
 
-Go FULL RGB with my typescript framework for building custom effects, and Home Assistant integration
+Go FULL RGB with my Home Assistant integrations
 
-- 🎨 [lightscript-workshop](https://github.com/hyperb1iss/lightscript-workshop) — TypeScript framework for custom SignalRGB effects with WebGL
 - 🐍 [signalrgb-python](https://github.com/hyperb1iss/signalrgb-python) — Python client & CLI for SignalRGB Pro
 - 🏠 [signalrgb-homeassistant](https://github.com/hyperb1iss/signalrgb-homeassistant) — Home Assistant integration
 - 💡 [hyper-light-card](https://github.com/hyperb1iss/hyper-light-card) — Custom HA card with dynamic color-aware UI
@@ -59,11 +67,6 @@ Go FULL RGB with my typescript framework for building custom effects, and Home A
 - 🌀 [aeonsync](https://github.com/hyperb1iss/aeonsync) — Flexible remote backup with incremental snapshots & smart retention
 - 🧜‍♀️ [siren](https://github.com/hyperb1iss/siren) — Unified linting frontend for 5+ languages with vibrant output
 - 🔪 [git-surgeon](https://github.com/hyperb1iss/git-surgeon) — Safe, complex git history operations — scrub secrets, rewrite authors
-- 😺 [chromacat](https://github.com/hyperb1iss/chromacat) — Terminal colorizer with 40+ themes & trippy gradient animations
-
-### 🖥️ Dotfiles
-
-- 🛠️ [dotfiles](https://github.com/hyperb1iss/dotfiles) — Cross-platform dev environment with SilkCircuit styling & modern CLI tools
 
 ## 🌙 Legacy Projects
 
