@@ -4,7 +4,7 @@
     <a href="https://hyperbliss.tech"><img src="https://img.shields.io/badge/-website-f0c0ff?style=for-the-badge&logo=internetarchive&logoColor=white&labelColor=6a3996" /></a>
     <a href="https://bsky.app/profile/hyperbliss.tech"><img src="https://img.shields.io/badge/-bluesky-c0f0ff?style=for-the-badge&logo=bluesky&logoColor=white&labelColor=1a4b91" /></a>
     <a href="https://hachyderm.io/@bliss"><img src="https://img.shields.io/badge/-mastodon-d9c0ff?style=for-the-badge&logo=mastodon&logoColor=white&labelColor=563acc" /></a>
-    <a href="https://linkedin.com/in/hyperb1iss"><img src="https://img.shields.io/badge/LinkedIn-c0e0ff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a66c2" /></a>
+    <a href="https://linkedin.com/in/hyperb1iss"><img src="https://img.shields.io/badge/-linkedin-c0e0ff?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a66c2" /></a>
 </p>
 
 Hey there! I'm **Stefanie Jane**, aka **hyperb1iss**— a creative tech person based in Seattle. I'm
@@ -34,9 +34,18 @@ art with code.
 - 🔮 [sibyl](https://github.com/hyperb1iss/sibyl) — Collective intelligence runtime with persistent memory, agent orchestration & knowledge graphs
 - ✨ [git-iris](https://github.com/hyperb1iss/git-iris) — AI-powered git workflow with smart commits, changelogs & code reviews
 - 🤖 [droidmind](https://github.com/hyperb1iss/droidmind) — MCP bridge for AI ↔ Android device control & debugging
+- 🎭 [ghostty-automator](https://github.com/hyperb1iss/ghostty-automator) — Ghostty fork with IPC automation protocol for AI terminal control
+- 🐍 [ghostty-automator-python](https://github.com/hyperb1iss/ghostty-automator-python) — Playwright-style Python library & MCP server for terminal automation
 - 💬 [q](https://github.com/hyperb1iss/q) — Minimal Claude CLI with pipe mode, TUI & agent capabilities
-- 🧪 [agents](https://github.com/hyperb1iss/agents) — 59 specialized AI agents for rapid development with Claude Code
 - 📎 [contexter](https://github.com/hyperb1iss/contexter) — Extract codebase context for LLMs via REST API, Chrome extension & CLI
+
+### 🦋 Agent Skills
+
+skills.sh-compatible plugins that give AI agents domain expertise
+
+- ⚡ [hyperskills](https://github.com/hyperb1iss/hyperskills) — 23 elite agents across 7 domains: fullstack, AI/ML, platform, security, growth & more
+- 🤖 [hyperdroid-skill](https://github.com/hyperb1iss/hyperdroid-skill) — Master Android from ADB to custom ROMs — device debugging, fastboot, LineageOS
+- 🔮 [moonrepo-skill](https://github.com/hyperb1iss/moonrepo-skill) — Deep knowledge of moon & proto for polyglot monorepo builds
 
 ### ⚡ SilkCircuit
 
@@ -52,6 +61,7 @@ Art with code — visual effects, terminal aesthetics, and generative experiment
 
 - 🎨 [lightscript-workshop](https://github.com/hyperb1iss/lightscript-workshop) — TypeScript framework for custom SignalRGB effects with WebGL
 - 😺 [chromacat](https://github.com/hyperb1iss/chromacat) — Terminal colorizer with 40+ themes & trippy gradient animations
+- ⚡ [context-engineering-demo](https://github.com/hyperb1iss/context-engineering-demo) — Animated React presentation on orchestrating AI agents
 
 ### 💡 SignalRGB Stuff
 
@@ -68,9 +78,12 @@ Go FULL RGB with my Home Assistant integrations
 - 🧜‍♀️ [siren](https://github.com/hyperb1iss/siren) — Unified linting frontend for 5+ languages with vibrant output
 - 🔪 [git-surgeon](https://github.com/hyperb1iss/git-surgeon) — Safe, complex git history operations — scrub secrets, rewrite authors
 
+### 🌈 RGB & Hardware
+
+- 🎮 [uchroma](https://github.com/hyperb1iss/uchroma) — Revamped Linux RGB control for Razer Chroma with Rust async backend, GTK4 GUI & animation engine
+
 ## 🌙 Legacy Projects
 
-- 🎮 [uchroma](https://github.com/hyperb1iss/uchroma) — Linux driver for Razer Chroma with animation engine
 - 🖥️ [vncflinger](https://github.com/hyperb1iss/vncflinger) — System-level VNC server for Android
 
 ### 🌠 Other contributions
