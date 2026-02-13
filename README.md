@@ -73,6 +73,8 @@ Go FULL RGB with my Home Assistant integrations
 
 ### 🛠️ Developer Utilities
 
+- 💎 [silkprint](https://github.com/hyperb1iss/silkprint) — Markdown-to-PDF engine with 40+ themes, syntax highlighting & publication-ready output
+- 🌐 [unifly](https://github.com/hyperb1iss/unifly) — CLI + TUI for UniFi network controllers with async Rust & ratatui
 - 🔧 [next-dynenv](https://github.com/hyperb1iss/next-dynenv) — Runtime environment variables for Next.js — one build, many deploys
 - 🌀 [aeonsync](https://github.com/hyperb1iss/aeonsync) — Flexible remote backup with incremental snapshots & smart retention
 - 🧜‍♀️ [siren](https://github.com/hyperb1iss/siren) — Unified linting frontend for 5+ languages with vibrant output
