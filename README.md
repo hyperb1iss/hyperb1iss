@@ -1,6 +1,7 @@
 # 🌠 𝓱 𝔂 𝓹 𝓮 𝓻 𝓫 𝟏 𝓲 𝓼 𝓼 ✨ ⎊ ⨳ ✵ ⊹
 
 <p align="center">
+    <a href="https://github.com/sponsors/hyperb1iss"><img src="https://img.shields.io/badge/-sponsor_me!-ff90e8?style=for-the-badge&logo=githubsponsors&logoColor=white&labelColor=db61a2" /></a>
     <a href="https://hyperbliss.tech"><img src="https://img.shields.io/badge/-website-f0c0ff?style=for-the-badge&logo=internetarchive&logoColor=white&labelColor=6a3996" /></a>
     <a href="https://bsky.app/profile/hyperbliss.tech"><img src="https://img.shields.io/badge/-bluesky-c0f0ff?style=for-the-badge&logo=bluesky&logoColor=white&labelColor=1a4b91" /></a>
     <a href="https://hachyderm.io/@bliss"><img src="https://img.shields.io/badge/-mastodon-d9c0ff?style=for-the-badge&logo=mastodon&logoColor=white&labelColor=563acc" /></a>
@@ -9,7 +10,8 @@
 
 Hey there! I'm **Stefanie Jane**, aka **hyperb1iss**— a creative tech person based in Seattle. I'm
 passionate about building awesome tools to help build stuff faster, but what I really love is making
-art with code.
+art with code. If you like the stuff I'm creating and want to see me create more, please consider becoming
+a sponsor! Every bit helps and is super appreciated!!
 
 ## 🌟 Me!!
 
@@ -98,4 +100,4 @@ I've shared my experiences and insights on **embedded systems**, **Android roms*
 
 ## 🌌 Let's connect!
 
-Find me at any of my links! If you like my work, star, follow, and [buy me a Monster Ultra Violet](https://ko-fi.com/hyperb1iss)! ⚡️
+Find me at any of my links! If you like my work, star, follow, and [sponsor my open-source work](https://github.com/sponsors/hyperb1iss)! 💜⚡️
