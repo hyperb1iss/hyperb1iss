@@ -59,6 +59,7 @@ My signature electric aesthetic dev environment across platforms
 
 - 🌃 [silkcircuit-nvim](https://github.com/hyperb1iss/silkcircuit-nvim) — Vibrant Neovim colorscheme with 5 variants & 40+ plugin support
 - 🏠 [silkcircuit-theme](https://github.com/hyperb1iss/silkcircuit-theme) — Neon-glowing Home Assistant theme, available on HACS
+- 💠 [opaline](https://github.com/hyperb1iss/opaline) — Token-based theme engine for Rust with 39 builtin themes, multi-stop gradients & ratatui/egui backends
 - 🛠️ [dotfiles](https://github.com/hyperb1iss/dotfiles) — Cross-platform dev environment with SilkCircuit styling & modern CLI tools
 
 ### 🎨 Creative Coding
@@ -89,6 +90,7 @@ Go FULL RGB with my Home Assistant integrations
 ### 🌈 RGB & Hardware
 
 - 🎮 [uchroma](https://github.com/hyperb1iss/uchroma) — Revamped Linux RGB control for Razer Chroma with Rust async backend, GTK4 GUI & animation engine
+- 🎹 [blocksd](https://github.com/hyperb1iss/blocksd) — Linux daemon for ROLI Blocks — MIDI SysEx keepalive, LED control & touch event handling
 
 ## 🌙 Legacy Projects
 
