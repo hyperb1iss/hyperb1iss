@@ -16,8 +16,12 @@ a sponsor! Every bit helps and is super appreciated!!
 ## 🌟 Me!!
 
 - **💻 Principal software engineer** of 25 years, working on some pretty cool stuff.
-- **📱 Created CyanogenMod** (now [LineageOS](https://lineageos.org/)), a little revolution!
+- **📱 Created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod)** (now [LineageOS](https://lineageos.org/)), a little revolution!
 - **🔧 Open-source**- [_star_ and check out my repos!](https://github.com/hyperb1iss?tab=repositories)
+
+<p align="center">
+    <a href="https://committers.top/united_states"><img src="assets/committers-top.png" alt="committers.top — #54 most active GitHub user in US" width="600" /></a>
+</p>
 
 ## 🔮 Current Projects
 
@@ -101,3 +105,4 @@ I've shared my experiences and insights on **embedded systems**, **Android roms*
 ## 🌌 Let's connect!
 
 Find me at any of my links! If you like my work, star, follow, and [sponsor my open-source work](https://github.com/sponsors/hyperb1iss)! 💜⚡️
+
