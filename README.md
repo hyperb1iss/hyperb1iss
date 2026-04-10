@@ -57,7 +57,7 @@ skills.sh-compatible plugins that give AI agents domain expertise
 
 My signature electric aesthetic dev environment across platforms
 
-- 🌃 [silkcircuit-nvim](https://github.com/hyperb1iss/silkcircuit-nvim) — Vibrant Neovim colorscheme with 5 variants & 40+ plugin support
+- 🌃 [silkcircuit](https://github.com/hyperb1iss/silkcircuit-nvim) — Electric meets elegant. A cyberpunk-inspired theme for your entire dev environment
 - 🏠 [silkcircuit-theme](https://github.com/hyperb1iss/silkcircuit-theme) — Neon-glowing Home Assistant theme, available on HACS
 - 💠 [opaline](https://github.com/hyperb1iss/opaline) — Token-based theme engine for Rust with 39 builtin themes, multi-stop gradients & ratatui/egui backends
 - 🛠️ [dotfiles](https://github.com/hyperb1iss/dotfiles) — Cross-platform dev environment with SilkCircuit styling & modern CLI tools
