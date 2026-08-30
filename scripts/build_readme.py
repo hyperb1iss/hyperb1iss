@@ -1,0 +1,146 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = []
+# ///
+"""Rewrite the generated blocks in README.md from live GitHub data.
+
+Two marker pairs are maintained:
+
+    <!-- stats starts -->  ...  <!-- stats ends -->
+    <!-- releases starts -->  ...  <!-- releases ends -->
+
+Everything outside the markers is hand-written and never touched. Run with
+`uv run scripts/build_readme.py`; needs GITHUB_TOKEN (or `gh auth token`).
+"""
+
+from __future__ import annotations
+
+import json
+import os
+import re
+import subprocess
+import sys
+import urllib.request
+from datetime import datetime
+from pathlib import Path
+
+OWNER = "hyperb1iss"
+README = Path(__file__).resolve().parent.parent / "README.md"
+RELEASE_COUNT = 8
+ENDPOINT = "https://api.github.com/graphql"
+
+QUERY = """
+query($cursor: String) {
+  user(login: "%s") {
+    repositories(first: 100, after: $cursor, ownerAffiliations: OWNER, isFork: false,
+                 privacy: PUBLIC, orderBy: {field: PUSHED_AT, direction: DESC}) {
+      pageInfo { hasNextPage endCursor }
+      nodes {
+        name
+        url
+        description
+        stargazerCount
+        isArchived
+        releases(first: 1, orderBy: {field: CREATED_AT, direction: DESC}) {
+          nodes { name tagName url publishedAt isDraft isPrerelease }
+        }
+      }
+    }
+  }
+}
+""" % OWNER
+
+
+def token() -> str:
+    if tok := os.environ.get("GITHUB_TOKEN"):
+        return tok
+    try:
+        return subprocess.check_output(["gh", "auth", "token"], text=True).strip()
+    except (OSError, subprocess.CalledProcessError):
+        sys.exit("no GITHUB_TOKEN and `gh auth token` failed")
+
+
+def graphql(query: str, variables: dict) -> dict:
+    body = json.dumps({"query": query, "variables": variables}).encode()
+    req = urllib.request.Request(
+        ENDPOINT,
+        data=body,
+        headers={
+            "Authorization": f"bearer {token()}",
+            "Content-Type": "application/json",
+            "User-Agent": f"{OWNER}-profile-builder",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        payload = json.load(resp)
+    if "errors" in payload:
+        sys.exit(f"graphql errors: {payload['errors']}")
+    return payload["data"]
+
+
+def fetch_repos() -> list[dict]:
+    repos: list[dict] = []
+    cursor = None
+    while True:
+        data = graphql(QUERY, {"cursor": cursor})
+        page = data["user"]["repositories"]
+        repos.extend(page["nodes"])
+        if not page["pageInfo"]["hasNextPage"]:
+            return repos
+        cursor = page["pageInfo"]["endCursor"]
+
+
+def replace_block(text: str, name: str, content: str) -> str:
+    pattern = re.compile(
+        rf"(<!-- {name} starts -->)(.*?)(<!-- {name} ends -->)", re.DOTALL
+    )
+    if not pattern.search(text):
+        sys.exit(f"README is missing the <!-- {name} --> markers")
+    return pattern.sub(rf"\g<1>{content}\g<3>", text, count=1)
+
+
+def fmt_date(iso: str) -> str:
+    return datetime.fromisoformat(iso.replace("Z", "+00:00")).strftime("%b %-d")
+
+
+def main() -> None:
+    repos = [r for r in fetch_repos() if not r["isArchived"]]
+
+    stars = sum(r["stargazerCount"] for r in repos)
+    stats = f"**{stars:,} stars** across **{len(repos)} public repos**"
+
+    releases = []
+    for r in repos:
+        for rel in r["releases"]["nodes"]:
+            if rel["isDraft"] or not rel["publishedAt"]:
+                continue
+            releases.append((rel["publishedAt"], r, rel))
+    releases.sort(key=lambda t: t[0], reverse=True)
+
+    lines = []
+    for published, repo, rel in releases[:RELEASE_COUNT]:
+        desc = (repo["description"] or "").strip().rstrip(".")
+        desc = re.sub(r"^[^\w]+", "", desc)  # strip leading emoji from repo descriptions
+        desc = re.split(r"[.!]\s|\s[-–—]\s", desc, maxsplit=1)[0]  # first clause only
+        if len(desc) > 72:
+            desc = desc[:72].rsplit(" ", 1)[0] + "…"
+        label = f"{repo['name']} {rel['tagName']}"
+        line = f"- **[{label}]({rel['url']})** · {fmt_date(published)}"
+        if desc:
+            line += f" · {desc}"
+        lines.append(line)
+    block = "\n" + "\n".join(lines) + "\n"
+
+    original = README.read_text()
+    updated = replace_block(original, "stats", stats)
+    updated = replace_block(updated, "releases", block)
+
+    if updated != original:
+        README.write_text(updated)
+        print(f"README updated: {stats}, {len(lines)} releases")
+    else:
+        print("README unchanged")
+
+
+if __name__ == "__main__":
+    main()
