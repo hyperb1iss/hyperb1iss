@@ -91,7 +91,7 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
 <summary><b>RGB, lighting, and smart home</b></summary>
 <br>
 
-| | |
+| project | what it does |
 |---|---|
 | [hypercolor-hass](https://github.com/hyperb1iss/hypercolor-hass) | Hypercolor as a first-class Home Assistant hub · HACS |
 | [hyper-light-card](https://github.com/hyperb1iss/hyper-light-card) | Home Assistant card that recolors itself to match the running effect · HACS |
@@ -107,7 +107,7 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
 <summary><b>Agents, MCP, and skills</b></summary>
 <br>
 
-| | |
+| project | what it does |
 |---|---|
 | [droidmind](https://github.com/hyperb1iss/droidmind) | Control and debug Android devices from any MCP client · 430 stars |
 | [git-iris](https://github.com/hyperb1iss/git-iris) | AI git workflow: commits, changelogs, reviews, and a studio TUI · crates.io |
@@ -127,7 +127,7 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
 <summary><b>Terminal, tooling, and infrastructure</b></summary>
 <br>
 
-| | |
+| project | what it does |
 |---|---|
 | [chromacat](https://github.com/hyperb1iss/chromacat) | Terminal colorizer with 40+ themes and gradient animation. The kitty. |
 | [prezzer](https://github.com/hyperb1iss/prezzer) | Cinematic React presentations that build to one offline HTML file · npm |
@@ -146,7 +146,7 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
 <summary><b>Android and earlier</b></summary>
 <br>
 
-| | |
+| project | what it does |
 |---|---|
 | [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod) → [LineageOS](https://lineageos.org/) | The custom Android distribution that ran on tens of millions of devices |
 | [vncflinger](https://github.com/hyperb1iss/vncflinger) | System-level VNC server for Android |
