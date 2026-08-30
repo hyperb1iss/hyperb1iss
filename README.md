@@ -10,11 +10,11 @@
   <a href="https://github.com/sponsors/hyperb1iss">sponsor 💜</a>
 </p>
 
-I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), which lives on as [LineageOS](https://lineageos.org/), and I've spent 25 years building tools that make building faster, then spending the saved cycles on art made of code. Right now that means an RGB lighting engine, memory for AI agents, terminal UIs, and the SilkCircuit palette that runs through all of it. <!-- stats starts -->**1,333 stars** across **42 public repos**<!-- stats ends -->, and most of them are alive.
+I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), which lives on as [LineageOS](https://lineageos.org/), and I've spent a couple of decades building tools that make building faster, then spending the saved cycles on art made of code. Right now that means an RGB lighting engine, memory for AI agents, terminal UIs, and the SilkCircuit palette that runs through all of it. <!-- stats starts -->**1,333 stars** across **42 public repos**<!-- stats ends -->, and most of them are alive.
 
 <p align="center">
-  <a href="https://committers.top/united_states"><img src="assets/committers-top.png" alt="committers.top: hyperb1iss ranked #14 most active GitHub user in the United States with 11,142 contributions" width="640"></a><br>
-  <sub>#14 most active GitHub user in the US, per <a href="https://committers.top/united_states">committers.top</a></sub>
+  <a href="https://committers.top/united_states"><img src="assets/committers-top.png" alt="committers.top ranking of the most active GitHub users in the United States, with hyperb1iss in the top twenty" width="640"></a><br>
+  <sub>Among the most active GitHub users in the US, per <a href="https://committers.top/united_states">committers.top</a></sub>
 </p>
 
 ## 🔮 Flagships
@@ -23,36 +23,36 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
   <tr>
     <td width="50%" valign="top">
       <h3>🌈 <a href="https://github.com/hyperb1iss/hypercolor">hypercolor</a></h3>
-      <p>Open-source RGB lighting engine for Linux, Windows, and macOS. Effects are web pages, rendered by an embedded Servo browser, composited on the GPU by SparkleFlinger, and sampled onto every LED you own at up to 60fps.</p>
-      <sub>Rust · v0.3.2 · <a href="https://hypercolor.lighting">hypercolor.lighting</a></sub>
+      <p>Open-source RGB lighting engine for Linux, Windows, and macOS. Effects are web pages, rendered by an embedded Servo browser, composited on the GPU by SparkleFlinger, and sampled onto every LED you own, every frame.</p>
+      <sub>Rust · <!-- v:hypercolor -->v0.3.2<!-- /v:hypercolor --> · <a href="https://hypercolor.lighting">hypercolor.lighting</a></sub>
     </td>
     <td width="50%" valign="top">
       <h3>🔮 <a href="https://github.com/hyperb1iss/sibyl">sibyl</a></h3>
       <p>One CLI, one graph, every AI tool you use sharing memory. Cross-agent persistent memory for coding assistants, with a knowledge graph, task coordination, and source-preserving provenance. Self-hosted and yours to keep.</p>
-      <sub>Python · v1.2.2 · MCP + CLI</sub>
+      <sub>Python · <!-- v:sibyl -->v1.2.2<!-- /v:sibyl --> · MCP + CLI</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>⚡ <a href="https://github.com/hyperb1iss/silkcircuit">silkcircuit</a></h3>
-      <p>Electric meets elegant. One palette, one semantic system, five intensity variants, applied to Neovim, VS Code, terminals, Chrome, and 20+ tools with WCAG AA contrast throughout. The visual identity behind everything on this page.</p>
+      <p>Electric meets elegant. One palette, one semantic system, a family of intensity variants, applied to Neovim, VS Code, terminals, Chrome, and the rest of the toolchain with WCAG AA contrast throughout. The visual identity behind everything on this page.</p>
       <sub>Lua · Neon, Vibrant, Soft, Glow, and Dawn variants</sub>
     </td>
     <td width="50%" valign="top">
       <h3>🌐 <a href="https://github.com/hyperb1iss/unifly">unifly</a></h3>
-      <p>UniFi network management for humans and agents. 28 top-level commands for scripting plus a live ratatui dashboard, both driven by one async engine that speaks every UniFi API.</p>
-      <sub>Rust · v0.10.0 · crates.io</sub>
+      <p>UniFi network management for humans and agents. A full command set for scripting plus a live ratatui dashboard, both driven by one async engine that speaks every UniFi API.</p>
+      <sub>Rust · <!-- v:unifly -->v0.10.0<!-- /v:unifly --> · crates.io</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>✦ <a href="https://github.com/hyperb1iss/opaline">opaline</a></h3>
-      <p>Token-based theme engine for Rust. Themes are TOML resolved through a palette → token → style → gradient pipeline, with 39 built-in themes, multi-stop gradients, and ratatui and egui backends.</p>
-      <sub>Rust · v0.4.1 · crates.io</sub>
+      <p>Token-based theme engine for Rust. Themes are TOML resolved through a palette → token → style → gradient pipeline, with a library of built-in themes, multi-stop gradients, and backends for ratatui, egui, and more.</p>
+      <sub>Rust · <!-- v:opaline -->v0.4.1<!-- /v:opaline --> · crates.io</sub>
     </td>
     <td width="50%" valign="top">
       <h3>💎 <a href="https://github.com/hyperb1iss/silkprint">silkprint</a></h3>
-      <p>Markdown in your terminal or rendered to a publication-grade PDF, from one themed engine. Forty themes, mermaid diagrams, live theme switching, and search, all in the reader.</p>
+      <p>Markdown in your terminal or rendered to a publication-grade PDF, from one themed engine. A library of themes, mermaid diagrams, live theme switching, and search, all in the reader.</p>
       <sub>Rust · terminal reader + PDF renderer</sub>
     </td>
   </tr>
@@ -60,11 +60,11 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
     <td width="50%" valign="top">
       <h3>🎹 <a href="https://github.com/hyperb1iss/blocksd">blocksd</a></h3>
       <p>Linux daemon for ROLI Blocks. Performs the MIDI SysEx handshake the hardware needs to stay awake, then exposes topology, LED control, and touch events. The Linux support ROLI never shipped.</p>
-      <sub>Python · v0.4.0 · PyPI</sub>
+      <sub>Python · <!-- v:blocksd -->v0.4.0<!-- /v:blocksd --> · PyPI</sub>
     </td>
     <td width="50%" valign="top">
       <h3>🛠️ <a href="https://github.com/hyperb1iss/dotfiles">dotfiles</a></h3>
-      <p>macOS-first, works on Linux and WSL2. Modern CLI tools, a tuned shell, and SilkCircuit wired through every prompt, pager, and editor. Nine years of continuous polish.</p>
+      <p>macOS-first, works on Linux and WSL2. Modern CLI tools, a tuned shell, and SilkCircuit wired through every prompt, pager, and editor. Polished continuously, never rewritten.</p>
       <sub>Shell · since 2017</sub>
     </td>
   </tr>
@@ -111,10 +111,10 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
 |---|---|
 | [droidmind](https://github.com/hyperb1iss/droidmind) | Control and debug Android devices from any MCP client |
 | [git-iris](https://github.com/hyperb1iss/git-iris) | AI git workflow: commits, changelogs, reviews, and a studio TUI · crates.io |
-| [hyperskills](https://github.com/hyperb1iss/hyperskills) | My agent skills: brainstorm, research, plan, implement, orchestrate, review, and friends |
+| [hyperskills](https://github.com/hyperb1iss/hyperskills) | My collection of agent skills, from brainstorming through review |
 | [hyperdroid-skill](https://github.com/hyperb1iss/hyperdroid-skill) | Android from ADB to custom ROMs, packaged as an agent skill |
 | [moonrepo-skill](https://github.com/hyperb1iss/moonrepo-skill) | moon and proto for polyglot monorepos, packaged as an agent skill |
-| [vigil](https://github.com/hyperb1iss/vigil) | Six agents that watch your PRs, fix review feedback, rebase, and reply while you stay in flow |
+| [vigil](https://github.com/hyperb1iss/vigil) | A team of agents that watch your PRs, fix review feedback, rebase, and reply while you stay in flow |
 | [lucidity-mcp](https://github.com/hyperb1iss/lucidity-mcp) | Prompt-driven code quality analysis for AI assistants over MCP |
 | [django-mcp](https://github.com/hyperb1iss/django-mcp) | Decorators that expose Django models, admin, and tools over MCP |
 | [ghostty-automator](https://github.com/hyperb1iss/ghostty-automator) · [python](https://github.com/hyperb1iss/ghostty-automator-python) | Ghostty fork with an IPC automation protocol, plus a Playwright-style Python driver and MCP server |
@@ -129,7 +129,7 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
 
 | project | what it does |
 |---|---|
-| [chromacat](https://github.com/hyperb1iss/chromacat) | Terminal colorizer with 40+ themes and gradient animation. The kitty. |
+| [chromacat](https://github.com/hyperb1iss/chromacat) | Terminal colorizer with a deep theme library and gradient animation. The kitty. |
 | [prezzer](https://github.com/hyperb1iss/prezzer) | Cinematic React presentations that build to one offline HTML file · npm |
 | [shared-workflows](https://github.com/hyperb1iss/shared-workflows) | Reusable GitHub Actions for the whole ecosystem: Rust, Python, Docker, docs, Homebrew, moonrepo |
 | [homebrew-tap](https://github.com/hyperb1iss/homebrew-tap) | `brew tap hyperb1iss/tap` for the CLIs above and the Hypercolor app |

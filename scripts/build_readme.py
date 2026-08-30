@@ -4,10 +4,11 @@
 # ///
 """Rewrite the generated blocks in README.md from live GitHub data.
 
-Two marker pairs are maintained:
+Three kinds of marker are maintained:
 
     <!-- stats starts -->  ...  <!-- stats ends -->
     <!-- releases starts -->  ...  <!-- releases ends -->
+    <!-- v:<repo> -->  ...  <!-- /v:<repo> -->   (latest release tag, per card)
 
 Everything outside the markers is hand-written and never touched. Run with
 `uv run scripts/build_readme.py`; needs GITHUB_TOKEN (or `gh auth token`).
@@ -100,6 +101,20 @@ def replace_block(text: str, name: str, content: str) -> str:
     return pattern.sub(rf"\g<1>{content}\g<3>", text, count=1)
 
 
+def fill_versions(text: str, latest: dict[str, dict]) -> str:
+    """Rewrite every <!-- v:name -->...<!-- /v:name --> span with that repo's tag."""
+
+    def sub(match: re.Match) -> str:
+        name = match.group(1)
+        rel = latest.get(name)
+        if rel is None:
+            print(f"warning: no published release for {name}, leaving marker as is")
+            return match.group(0)
+        return f"<!-- v:{name} -->{rel['tagName']}<!-- /v:{name} -->"
+
+    return re.sub(r"<!-- v:([\w.-]+) -->.*?<!-- /v:\1 -->", sub, text, flags=re.DOTALL)
+
+
 def fmt_date(iso: str) -> str:
     when = datetime.fromisoformat(iso.replace("Z", "+00:00"))
     fmt = "%b %-d" if when.year == datetime.now(when.tzinfo).year else "%b %-d, %Y"
@@ -145,6 +160,7 @@ def main() -> None:
     original = README.read_text()
     updated = replace_block(original, "stats", stats)
     updated = replace_block(updated, "releases", block)
+    updated = fill_versions(updated, {r["name"]: rel for _, r, rel in releases})
 
     if updated != original:
         README.write_text(updated)
