@@ -10,7 +10,7 @@
   <a href="https://github.com/sponsors/hyperb1iss">sponsor 💜</a>
 </p>
 
-I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), which lives on as [LineageOS](https://lineageos.org/), and I've spent a couple of decades building tools that make building faster, then spending the saved cycles on art made of code. Right now that means an RGB lighting engine, memory for AI agents, terminal UIs, and the SilkCircuit palette that runs through all of it. <!-- stats starts -->**1,333 stars** across **42 public repos**<!-- stats ends -->, and most of them are alive.
+I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), which lives on as [LineageOS](https://lineageos.org/), and I've spent a couple of decades building tools that make building faster, then spending the saved cycles on art made of code. Right now that means an RGB lighting engine, memory for AI agents, terminal UIs, and the SilkCircuit palette that runs through all of it.
 
 <p align="center">
   <a href="https://committers.top/united_states"><img src="assets/committers-top.png" alt="committers.top ranking of the most active GitHub users in the United States, with hyperb1iss in the top twenty" width="640"></a><br>

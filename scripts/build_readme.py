@@ -4,9 +4,8 @@
 # ///
 """Rewrite the generated blocks in README.md from live GitHub data.
 
-Three kinds of marker are maintained:
+Two kinds of marker are maintained:
 
-    <!-- stats starts -->  ...  <!-- stats ends -->
     <!-- releases starts -->  ...  <!-- releases ends -->
     <!-- v:<repo> -->  ...  <!-- /v:<repo> -->   (latest release tag, per card)
 
@@ -41,7 +40,6 @@ query($cursor: String) {
         name
         url
         description
-        stargazerCount
         isArchived
         releases(first: 5, orderBy: {field: CREATED_AT, direction: DESC}) {
           nodes { name tagName url publishedAt isDraft isPrerelease }
@@ -134,9 +132,6 @@ def clean_description(raw: str | None) -> str:
 def main() -> None:
     repos = [r for r in fetch_repos() if not r["isArchived"]]
 
-    stars = sum(r["stargazerCount"] for r in repos)
-    stats = f"**{stars:,} stars** across **{len(repos)} public repos**"
-
     releases = []
     for r in repos:
         # Newest published release; drafts sort first and must be skipped.
@@ -158,13 +153,12 @@ def main() -> None:
     block = "\n" + "\n".join(lines) + "\n"
 
     original = README.read_text()
-    updated = replace_block(original, "stats", stats)
-    updated = replace_block(updated, "releases", block)
+    updated = replace_block(original, "releases", block)
     updated = fill_versions(updated, {r["name"]: rel for _, r, rel in releases})
 
     if updated != original:
         README.write_text(updated)
-        print(f"README updated: {stats}, {len(lines)} releases")
+        print(f"README updated: {len(lines)} releases")
     else:
         print("README unchanged")
 
