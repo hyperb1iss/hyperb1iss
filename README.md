@@ -22,7 +22,7 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🌈 <a href="https://github.com/hyperb1iss/hypercolor">hypercolor</a></h3>
+      <h3>🪩 <a href="https://github.com/hyperb1iss/hypercolor">hypercolor</a></h3>
       <p>Open-source RGB lighting engine for Linux, Windows, and macOS. Effects are web pages, rendered by an embedded Servo browser, composited on the GPU by SparkleFlinger, and sampled onto every LED you own, every frame.</p>
       <sub>Rust · <!-- v:hypercolor -->v0.3.2<!-- /v:hypercolor --> · <a href="https://hypercolor.lighting">hypercolor.lighting</a></sub>
     </td>
