@@ -23,7 +23,6 @@
   .blob-a{animation:drift-a 18s ease-in-out infinite alternate}
   .blob-b{animation:drift-b 23s ease-in-out infinite alternate}
   .glow{animation:breathe 4s ease-in-out infinite}
-  .glow{opacity:1}
 }
 @keyframes sweep{to{transform:translateX(1200px)}}
 @keyframes pulse{from{stroke-dashoffset:956}to{stroke-dashoffset:0}}

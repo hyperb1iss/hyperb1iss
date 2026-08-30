@@ -23,8 +23,8 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
   <tr>
     <td width="50%" valign="top">
       <h3>🌈 <a href="https://github.com/hyperb1iss/hypercolor">hypercolor</a></h3>
-      <p>Open-source RGB lighting engine for Linux, Windows, and macOS. Effects are web pages, rendered by an embedded Servo browser, composited on the GPU by SparkleFlinger, and sampled onto every LED you own at 60fps.</p>
-      <sub>Rust · v0.3.2 · 179 drivers across 32 vendors · <a href="https://hypercolor.lighting">hypercolor.lighting</a></sub>
+      <p>Open-source RGB lighting engine for Linux, Windows, and macOS. Effects are web pages, rendered by an embedded Servo browser, composited on the GPU by SparkleFlinger, and sampled onto every LED you own at up to 60fps.</p>
+      <sub>Rust · v0.3.2 · 179 supported devices across 32 vendors · <a href="https://hypercolor.lighting">hypercolor.lighting</a></sub>
     </td>
     <td width="50%" valign="top">
       <h3>🔮 <a href="https://github.com/hyperb1iss/sibyl">sibyl</a></h3>
@@ -35,13 +35,13 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
   <tr>
     <td width="50%" valign="top">
       <h3>⚡ <a href="https://github.com/hyperb1iss/silkcircuit">silkcircuit</a></h3>
-      <p>Electric meets elegant. One palette, one semantic system, five intensity variants, applied to Neovim, VS Code, terminals, Chrome, and 20+ CLI tools with WCAG AA contrast throughout. The visual identity behind everything on this page.</p>
+      <p>Electric meets elegant. One palette, one semantic system, five intensity variants, applied to Neovim, VS Code, terminals, Chrome, and 20+ tools with WCAG AA contrast throughout. The visual identity behind everything on this page.</p>
       <sub>Lua · Neon, Vibrant, Soft, Glow, and Dawn variants</sub>
     </td>
     <td width="50%" valign="top">
       <h3>🌐 <a href="https://github.com/hyperb1iss/unifly">unifly</a></h3>
       <p>UniFi network management for humans and agents. 28 top-level commands for scripting plus a live ratatui dashboard, both driven by one async engine that speaks every UniFi API.</p>
-      <sub>Rust · v0.10.0 · crates.io · 249 stars</sub>
+      <sub>Rust · v0.10.0 · crates.io</sub>
     </td>
   </tr>
   <tr>
@@ -74,13 +74,13 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
 
 <!-- releases starts -->
 - **[hypercolor v0.3.2](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.3.2)** · Aug 16 · Excessively glorious RGB orchestration for Linux, Windows, and macOS
-- **[sibyl v1.2.2](https://github.com/hyperb1iss/sibyl/releases/tag/v1.2.2)** · Aug 14 · Collective intelligence runtime for AI agents
-- **[hypercolor-hass v0.2.0](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.2.0)** · Aug 11 · Hypercolor RGB lighting orchestration as a first-class Home Assistant…
-- **[unifly v0.10.0](https://github.com/hyperb1iss/unifly/releases/tag/v0.10.0)** · Aug 7 · Elegant UniFi network management CLI & TUI
+- **[sibyl v1.2.2](https://github.com/hyperb1iss/sibyl/releases/tag/v1.2.2)** · Aug 14 · Collective intelligence runtime for AI agents. Knowledge graph + persistent memory
+- **[hypercolor-hass v0.2.0](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.2.0)** · Aug 11 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
+- **[unifly v0.10.0](https://github.com/hyperb1iss/unifly/releases/tag/v0.10.0)** · Aug 7 · Elegant UniFi network management CLI & TUI - for humans and agents
 - **[silkcircuit-theme v1.0.1](https://github.com/hyperb1iss/silkcircuit-theme/releases/tag/v1.0.1)** · Jun 28 · SilkCircuit: A Neon Dream for Home Assistant
 - **[opaline v0.4.1](https://github.com/hyperb1iss/opaline/releases/tag/v0.4.1)** · May 20 · A token-based theme engine for Rust TUI applications
-- **[git-iris v2.1.0](https://github.com/hyperb1iss/git-iris/releases/tag/v2.1.0)** · May 20 · An intelligent agent that understands your code and crafts perfect Git…
-- **[signalrgb-homeassistant v1.1.0](https://github.com/hyperb1iss/signalrgb-homeassistant/releases/tag/v1.1.0)** · Apr 8 · Transform your smart home lighting with the power of SignalRGB, now…
+- **[git-iris v2.1.0](https://github.com/hyperb1iss/git-iris/releases/tag/v2.1.0)** · May 20 · An intelligent agent that understands your code and crafts perfect Git artifacts
+- **[signalrgb-homeassistant v1.1.0](https://github.com/hyperb1iss/signalrgb-homeassistant/releases/tag/v1.1.0)** · Apr 8 · Transform your smart home lighting with the power of SignalRGB, now integrated…
 <!-- releases ends -->
 
 <sub>Refreshed every six hours from GitHub releases. Everything older is on the <a href="https://github.com/hyperb1iss?tab=repositories&sort=pushed">repositories tab</a>.</sub>
@@ -95,7 +95,7 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
 |---|---|
 | [hypercolor-hass](https://github.com/hyperb1iss/hypercolor-hass) | Hypercolor as a first-class Home Assistant hub · HACS |
 | [hyper-light-card](https://github.com/hyperb1iss/hyper-light-card) | Home Assistant card that recolors itself to match the running effect · HACS |
-| [uchroma](https://github.com/hyperb1iss/uchroma) | Razer Chroma on Linux without kernel modules. Async Rust backend, GTK4 GUI, animation layers · since 2016 |
+| [uchroma](https://github.com/hyperb1iss/uchroma) | Razer Chroma on Linux without kernel modules. asyncio Python core, GTK4 GUI, layered animations · since 2016 |
 | [signalrgb-homeassistant](https://github.com/hyperb1iss/signalrgb-homeassistant) | SignalRGB as a Home Assistant light entity · HACS |
 | [signalrgb-python](https://github.com/hyperb1iss/signalrgb-python) | Python client and CLI for SignalRGB Pro · PyPI |
 | [lightscript-workshop](https://github.com/hyperb1iss/lightscript-workshop) | TypeScript framework for writing SignalRGB effects with WebGL |
@@ -109,7 +109,7 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
 
 | project | what it does |
 |---|---|
-| [droidmind](https://github.com/hyperb1iss/droidmind) | Control and debug Android devices from any MCP client · 430 stars |
+| [droidmind](https://github.com/hyperb1iss/droidmind) | Control and debug Android devices from any MCP client |
 | [git-iris](https://github.com/hyperb1iss/git-iris) | AI git workflow: commits, changelogs, reviews, and a studio TUI · crates.io |
 | [hyperskills](https://github.com/hyperb1iss/hyperskills) | My agent skills: brainstorm, research, plan, implement, orchestrate, review, and friends |
 | [hyperdroid-skill](https://github.com/hyperb1iss/hyperdroid-skill) | Android from ADB to custom ROMs, packaged as an agent skill |
@@ -117,7 +117,7 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
 | [vigil](https://github.com/hyperb1iss/vigil) | Six agents that watch your PRs, fix review feedback, rebase, and reply while you stay in flow |
 | [lucidity-mcp](https://github.com/hyperb1iss/lucidity-mcp) | Prompt-driven code quality analysis for AI assistants over MCP |
 | [django-mcp](https://github.com/hyperb1iss/django-mcp) | Decorators that expose Django models, admin, and tools over MCP |
-| [ghostty-automator](https://github.com/hyperb1iss/ghostty-automator) · [python](https://github.com/hyperb1iss/ghostty-automator-python) | IPC automation protocol for Ghostty, plus a Playwright-style Python driver and MCP server |
+| [ghostty-automator](https://github.com/hyperb1iss/ghostty-automator) · [python](https://github.com/hyperb1iss/ghostty-automator-python) | Ghostty fork with an IPC automation protocol, plus a Playwright-style Python driver and MCP server |
 | [q](https://github.com/hyperb1iss/q) | The tiniest Claude CLI: ask, pipe, chat |
 | [hermes-sibyl-memory](https://github.com/hyperb1iss/hermes-sibyl-memory) | Sibyl memory for Hermes Agent |
 
@@ -132,11 +132,10 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
 | [chromacat](https://github.com/hyperb1iss/chromacat) | Terminal colorizer with 40+ themes and gradient animation. The kitty. |
 | [prezzer](https://github.com/hyperb1iss/prezzer) | Cinematic React presentations that build to one offline HTML file · npm |
 | [shared-workflows](https://github.com/hyperb1iss/shared-workflows) | Reusable GitHub Actions for the whole ecosystem: Rust, Python, Docker, docs, Homebrew, moonrepo |
-| [homebrew-tap](https://github.com/hyperb1iss/homebrew-tap) | `brew tap hyperb1iss/tap` for the Rust tools above |
-| [siren](https://github.com/hyperb1iss/siren) | One linting frontend for 5+ languages with framework detection |
+| [homebrew-tap](https://github.com/hyperb1iss/homebrew-tap) | `brew tap hyperb1iss/tap` for the CLIs above and the Hypercolor app |
 | [git-surgeon](https://github.com/hyperb1iss/git-surgeon) | History surgery: scrub secrets, rewrite authors, truncate safely |
 | [aeonsync](https://github.com/hyperb1iss/aeonsync) | Remote backups with incremental snapshots and retention policies |
-| [next-dynenv](https://github.com/hyperb1iss/next-dynenv) | Runtime environment variables for Next.js: one build, many deploys |
+| [next-dynenv](https://github.com/hyperb1iss/next-dynenv) | Runtime environment variables for Next.js, one build for many deploys (fork of next-runtime-env) |
 | [context-engineering-demo](https://github.com/hyperb1iss/context-engineering-demo) | A presentation on context engineering, built by context engineering |
 | [hyperbliss.tech](https://github.com/hyperb1iss/hyperbliss.tech) | The website. Nerd city. |
 

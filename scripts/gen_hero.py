@@ -82,7 +82,6 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{
   .blob-a{{animation:drift-a 18s ease-in-out infinite alternate}}
   .blob-b{{animation:drift-b 23s ease-in-out infinite alternate}}
   .glow{{animation:breathe 4s ease-in-out infinite}}
-  .glow{{opacity:1}}
 }}
 @keyframes sweep{{to{{transform:translateX({W}px)}}}}
 @keyframes pulse{{from{{stroke-dashoffset:956}}to{{stroke-dashoffset:0}}}}

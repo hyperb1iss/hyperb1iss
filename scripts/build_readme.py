@@ -27,6 +27,7 @@ from pathlib import Path
 OWNER = "hyperb1iss"
 README = Path(__file__).resolve().parent.parent / "README.md"
 RELEASE_COUNT = 8
+MAX_DESC = 84
 ENDPOINT = "https://api.github.com/graphql"
 
 QUERY = """
@@ -41,7 +42,7 @@ query($cursor: String) {
         description
         stargazerCount
         isArchived
-        releases(first: 1, orderBy: {field: CREATED_AT, direction: DESC}) {
+        releases(first: 5, orderBy: {field: CREATED_AT, direction: DESC}) {
           nodes { name tagName url publishedAt isDraft isPrerelease }
         }
       }
@@ -100,7 +101,19 @@ def replace_block(text: str, name: str, content: str) -> str:
 
 
 def fmt_date(iso: str) -> str:
-    return datetime.fromisoformat(iso.replace("Z", "+00:00")).strftime("%b %-d")
+    when = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+    fmt = "%b %-d" if when.year == datetime.now(when.tzinfo).year else "%b %-d, %Y"
+    return when.strftime(fmt)
+
+
+def clean_description(raw: str | None) -> str:
+    """Trim a repo description to one feed-friendly clause with no markdown."""
+    desc = (raw or "").strip()
+    desc = re.sub(r"^[^\w]+", "", desc)  # leading emoji
+    desc = desc.rstrip(".!")
+    if len(desc) > MAX_DESC:
+        desc = desc[:MAX_DESC].rsplit(" ", 1)[0].rstrip(",;:") + "…"
+    return re.sub(r"([\[\]*_`])", r"\\\1", desc)
 
 
 def main() -> None:
@@ -111,19 +124,17 @@ def main() -> None:
 
     releases = []
     for r in repos:
+        # Newest published release; drafts sort first and must be skipped.
         for rel in r["releases"]["nodes"]:
             if rel["isDraft"] or not rel["publishedAt"]:
                 continue
             releases.append((rel["publishedAt"], r, rel))
+            break
     releases.sort(key=lambda t: t[0], reverse=True)
 
     lines = []
     for published, repo, rel in releases[:RELEASE_COUNT]:
-        desc = (repo["description"] or "").strip().rstrip(".")
-        desc = re.sub(r"^[^\w]+", "", desc)  # strip leading emoji from repo descriptions
-        desc = re.split(r"[.!]\s|\s[-–—]\s", desc, maxsplit=1)[0]  # first clause only
-        if len(desc) > 72:
-            desc = desc[:72].rsplit(" ", 1)[0] + "…"
+        desc = clean_description(repo["description"])
         label = f"{repo['name']} {rel['tagName']}"
         line = f"- **[{label}]({rel['url']})** · {fmt_date(published)}"
         if desc:
