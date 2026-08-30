@@ -10,7 +10,7 @@
   <a href="https://github.com/sponsors/hyperb1iss">sponsor 💜</a>
 </p>
 
-I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), which lives on as [LineageOS](https://lineageos.org/), and I've spent a couple of decades building tools that make building faster, then spending the saved cycles on art made of code. Right now that means an RGB lighting engine, memory for AI agents, terminal UIs, and the SilkCircuit palette that runs through all of it.
+I'm **Stefanie Jane**, a principal engineer in Seattle. Professionally I build infrastructure for AI agents, and along the way I've shipped software and systems for mobile, VR, healthcare, data science, and media broadcasting. I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), which lives on as [LineageOS](https://lineageos.org/). The projects below are the rest of it: an RGB lighting engine, memory for AI agents, terminal UIs, and the SilkCircuit palette that runs through all of it.
 
 <p align="center">
   <a href="https://committers.top/united_states"><img src="assets/committers-top.png" alt="committers.top ranking of the most active GitHub users in the United States, with hyperb1iss in the top twenty" width="640"></a><br>
@@ -63,13 +63,18 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
       <sub>Rust · terminal reader + PDF renderer</sub>
     </td>
     <td width="50%" valign="top">
+      <h3>🎭 <a href="https://github.com/hyperb1iss/prezzer">prezzer</a></h3>
+      <p>Presentations as code. A deck is a repository that renders with real React components and builds to a single HTML file you can present from a file URL, attach to an email, or drop on any static host. No cloud, no export pipeline.</p>
+      <sub>TypeScript · Bun · npm</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3>🎹 <a href="https://github.com/hyperb1iss/blocksd">blocksd</a></h3>
       <p>Linux daemon for ROLI Blocks. Performs the MIDI SysEx handshake the hardware needs to stay awake, then exposes topology, LED control, and touch events. The Linux support ROLI never shipped.</p>
       <sub>Python · <!-- v:blocksd -->v0.4.0<!-- /v:blocksd --> · PyPI</sub>
     </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
       <h3>🛠️ <a href="https://github.com/hyperb1iss/dotfiles">dotfiles</a></h3>
       <p>macOS-first, works on Linux and WSL2. Modern CLI tools, a tuned shell, and SilkCircuit wired through every prompt, pager, and editor. Polished continuously since 2017, never rewritten. The foundation every project above is built on.</p>
       <sub>Shell · since 2017</sub>
@@ -111,7 +116,6 @@ I'm **Stefanie Jane**, a principal engineer in Seattle. I created [CyanogenMod](
 **Terminal, tooling, and infrastructure**
 
 - **[chromacat](https://github.com/hyperb1iss/chromacat)** · terminal colorizer with gradient animation, the kitty
-- **[prezzer](https://github.com/hyperb1iss/prezzer)** · cinematic React decks that build to one offline HTML file
 - **[shared-workflows](https://github.com/hyperb1iss/shared-workflows)** · reusable GitHub Actions for the whole ecosystem
 - **[homebrew-tap](https://github.com/hyperb1iss/homebrew-tap)** · `brew tap hyperb1iss/tap` for the CLIs and the Hypercolor app
 - **[git-surgeon](https://github.com/hyperb1iss/git-surgeon)** · scrub secrets, rewrite authors, truncate history safely
