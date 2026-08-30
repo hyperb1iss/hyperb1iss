@@ -23,12 +23,13 @@
   .blob-a{animation:drift-a 18s ease-in-out infinite alternate}
   .blob-b{animation:drift-b 23s ease-in-out infinite alternate}
   .glow{animation:breathe 4s ease-in-out infinite}
+  .glow{opacity:1}
 }
 @keyframes sweep{to{transform:translateX(1200px)}}
 @keyframes pulse{from{stroke-dashoffset:956}to{stroke-dashoffset:0}}
 @keyframes pad{0%,100%{opacity:.35}50%{opacity:1}}
 @keyframes blink{to{opacity:0}}
-@keyframes breathe{0%,100%{opacity:.55}50%{opacity:.95}}
+@keyframes breathe{0%,100%{opacity:.7}50%{opacity:1}}
 @keyframes drift-a{to{transform:translate(120px,40px)}}
 @keyframes drift-b{to{transform:translate(-90px,-50px)}}
 </style>
@@ -39,7 +40,7 @@
   <stop offset=".8" stop-color="#f1fa8c"/>
   <stop offset="1" stop-color="#e135ff"/>
 </linearGradient>
-<radialGradient id="blobA"><stop offset="0" stop-color="#e135ff" stop-opacity=".55"/><stop offset="1" stop-color="#e135ff" stop-opacity="0"/></radialGradient>
+<radialGradient id="blobA"><stop offset="0" stop-color="#e135ff" stop-opacity=".32"/><stop offset="1" stop-color="#e135ff" stop-opacity="0"/></radialGradient>
 <radialGradient id="blobB"><stop offset="0" stop-color="#80ffea" stop-opacity=".4"/><stop offset="1" stop-color="#80ffea" stop-opacity="0"/></radialGradient>
 <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#e135ff"/><stop offset=".5" stop-color="#ff6ac1"/><stop offset="1" stop-color="#80ffea"/></linearGradient>
 <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".035"/></pattern>
@@ -49,7 +50,7 @@
 </defs>
 
 <rect width="1200" height="320" fill="#0a0612"/>
-<g class="blob"><circle class="blob-a" cx="180" cy="90" r="320" fill="url(#blobA)"/><circle class="blob-b" cx="1000" cy="300" r="300" fill="url(#blobB)"/></g>
+<g class="blob"><circle class="blob-a" cx="120" cy="20" r="340" fill="url(#blobA)"/><circle class="blob-b" cx="1000" cy="300" r="300" fill="url(#blobB)"/></g>
 <rect width="1200" height="320" fill="url(#scan)"/>
 
 <g><path d="M 720 62 H 860 L 900 102 H 1040 L 1080 142 H 1200" class="trace" stroke="#80ffea"/><path d="M 720 62 H 860 L 900 102 H 1040 L 1080 142 H 1200" class="pulse" stroke="#80ffea" style="animation-delay:0.0s;animation-duration:7.0s"/><path d="M 760 120 H 930 L 970 160 H 1130 L 1170 200 H 1200" class="trace" stroke="#e135ff"/><path d="M 760 120 H 930 L 970 160 H 1130 L 1170 200 H 1200" class="pulse" stroke="#e135ff" style="animation-delay:1.8s;animation-duration:8.5s"/><path d="M 700 250 H 820 L 860 210 H 990 L 1030 250 H 1200" class="trace" stroke="#ff6ac1"/><path d="M 700 250 H 820 L 860 210 H 990 L 1030 250 H 1200" class="pulse" stroke="#ff6ac1" style="animation-delay:3.1s;animation-duration:6.5s"/><path d="M 1200 30 H 1110 L 1070 70 H 960 L 920 30 H 840" class="trace" stroke="#e135ff"/><path d="M 1200 30 H 1110 L 1070 70 H 960 L 920 30 H 840" class="pulse" stroke="#e135ff" style="animation-delay:0.9s;animation-duration:9.0s"/><path d="M 1200 290 H 1090 L 1050 250 H 900" class="trace" stroke="#80ffea"/><path d="M 1200 290 H 1090 L 1050 250 H 900" class="pulse" stroke="#80ffea" style="animation-delay:4.2s;animation-duration:7.5s"/></g>

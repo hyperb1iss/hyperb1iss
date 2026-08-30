@@ -82,12 +82,13 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{
   .blob-a{{animation:drift-a 18s ease-in-out infinite alternate}}
   .blob-b{{animation:drift-b 23s ease-in-out infinite alternate}}
   .glow{{animation:breathe 4s ease-in-out infinite}}
+  .glow{{opacity:1}}
 }}
 @keyframes sweep{{to{{transform:translateX({W}px)}}}}
 @keyframes pulse{{from{{stroke-dashoffset:956}}to{{stroke-dashoffset:0}}}}
 @keyframes pad{{0%,100%{{opacity:.35}}50%{{opacity:1}}}}
 @keyframes blink{{to{{opacity:0}}}}
-@keyframes breathe{{0%,100%{{opacity:.55}}50%{{opacity:.95}}}}
+@keyframes breathe{{0%,100%{{opacity:.7}}50%{{opacity:1}}}}
 @keyframes drift-a{{to{{transform:translate(120px,40px)}}}}
 @keyframes drift-b{{to{{transform:translate(-90px,-50px)}}}}
 </style>
@@ -98,7 +99,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{
   <stop offset=".8" stop-color="{YELLOW}"/>
   <stop offset="1" stop-color="{MAGENTA}"/>
 </linearGradient>
-<radialGradient id="blobA"><stop offset="0" stop-color="{MAGENTA}" stop-opacity=".55"/><stop offset="1" stop-color="{MAGENTA}" stop-opacity="0"/></radialGradient>
+<radialGradient id="blobA"><stop offset="0" stop-color="{MAGENTA}" stop-opacity=".32"/><stop offset="1" stop-color="{MAGENTA}" stop-opacity="0"/></radialGradient>
 <radialGradient id="blobB"><stop offset="0" stop-color="{CYAN}" stop-opacity=".4"/><stop offset="1" stop-color="{CYAN}" stop-opacity="0"/></radialGradient>
 <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="{MAGENTA}"/><stop offset=".5" stop-color="{CORAL}"/><stop offset="1" stop-color="{CYAN}"/></linearGradient>
 <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".035"/></pattern>
@@ -108,7 +109,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{
 </defs>
 
 <rect width="{W}" height="{H}" fill="{BG}"/>
-<g class="blob"><circle class="blob-a" cx="180" cy="90" r="320" fill="url(#blobA)"/><circle class="blob-b" cx="1000" cy="300" r="300" fill="url(#blobB)"/></g>
+<g class="blob"><circle class="blob-a" cx="120" cy="20" r="340" fill="url(#blobA)"/><circle class="blob-b" cx="1000" cy="300" r="300" fill="url(#blobB)"/></g>
 <rect width="{W}" height="{H}" fill="url(#scan)"/>
 
 <g>{"".join(trace_svg)}</g>
