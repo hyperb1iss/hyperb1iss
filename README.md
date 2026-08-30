@@ -152,4 +152,4 @@ I've spoken on Android internals, custom ROMs, embedded systems, and audio progr
 
 ## 💜 Support
 
-If any of this is useful to you, stars and [sponsorship](https://github.com/sponsors/hyperb1iss) keep the lights on, quite literally in the RGB case.
+Everything here is free and open source. If something earned a place in your workflow, star it so others find it, or [sponsor](https://github.com/sponsors/hyperb1iss) the next one.
