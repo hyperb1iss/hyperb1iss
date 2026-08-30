@@ -10,7 +10,9 @@
   <a href="https://github.com/sponsors/hyperb1iss">sponsor 💜</a>
 </p>
 
-I'm **Stefanie Jane**, a principal engineer in Seattle. Professionally I build infrastructure for AI agents, and along the way I've shipped software and systems for mobile, VR, healthcare, data science, and media broadcasting. I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), which lives on as [LineageOS](https://lineageos.org/). The projects below are the rest of it: an RGB lighting engine, memory for AI agents, terminal UIs, and the SilkCircuit palette that runs through all of it.
+I'm **Stefanie Jane**, a creative tech person in Seattle! Professionally I'm building infrastructure for AI agents at scale, and along the way I've created cool stuff for mobile, VR, healthcare, data science, and media broadcasting. I'm also building a bunch of open source software that you should definitely check out: an epic RGB lighting engine, memory for AI agents, terminal UIs, and the SilkCircuit palette and theme system that I use for everything. 
+
+nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), which lives on as [LineageOS](https://lineageos.org/). 
 
 <p align="center">
   <a href="https://committers.top/united_states"><img src="assets/committers-top.png" alt="committers.top ranking of the most active GitHub users in the United States, with hyperb1iss in the top twenty" width="640"></a><br>
