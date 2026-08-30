@@ -84,7 +84,7 @@ nerd credz: in a previous life, I created [CyanogenMod](https://en.wikipedia.org
   </tr>
 </table>
 
-## 📡 N O W  P L A Y I N G
+## 📡 N E W S
 
 <!-- releases starts -->
 - **[hypercolor v0.3.2](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.3.2)** · Aug 16 · Excessively glorious RGB orchestration for Linux, Windows, and macOS
@@ -99,7 +99,7 @@ nerd credz: in a previous life, I created [CyanogenMod](https://en.wikipedia.org
 
 <sub>Refreshed every six hours from GitHub releases. Everything older is on the <a href="https://github.com/hyperb1iss?tab=repositories&sort=pushed">repositories tab</a>.</sub>
 
-## 🗺️ E V E R Y T H I N G  E V E R Y T H I N G
+## 🗺️ E V E R Y T H I N G
 
 <table>
   <tr>
