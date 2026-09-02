@@ -78,8 +78,8 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
     </td>
     <td width="50%" valign="top">
       <h3>🛠️ <a href="https://github.com/hyperb1iss/dotfiles">dotfiles</a></h3>
-      <p>macOS-first, works on Linux and WSL2. Modern CLI tools, a tuned shell, and SilkCircuit wired through every prompt, pager, and editor. Polished continuously since 2017, never rewritten. The foundation every project above is built on.</p>
-      <sub>Shell · since 2017</sub>
+      <p>The dev environment I live in! Modern CLI tools, a tuned shell, and SilkCircuit wired through every prompt, pager, and editor. Polished continuously since 2013- it's the foundation every project above is built on. Linux, Mac, Windows</p>
+      <sub>Shell · since 2013</sub>
     </td>
   </tr>
 </table>
