@@ -26,7 +26,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
     <td width="50%" valign="top">
       <h3>🪩 <a href="https://github.com/hyperb1iss/hypercolor">hypercolor</a></h3>
       <p>Open-source RGB lighting engine for Linux, Windows, and macOS. Effects are web pages, rendered by an embedded Servo browser, composited on the GPU by SparkleFlinger, and sampled onto every LED you own, every frame.</p>
-      <sub>Rust · <!-- v:hypercolor -->v0.3.2<!-- /v:hypercolor --> · <a href="https://hypercolor.lighting">hypercolor.lighting</a></sub>
+      <sub>Rust · <!-- v:hypercolor -->v0.4.0<!-- /v:hypercolor --> · <a href="https://hypercolor.lighting">hypercolor.lighting</a></sub>
     </td>
     <td width="50%" valign="top">
       <h3>🔮 <a href="https://github.com/hyperb1iss/sibyl">sibyl</a></h3>
@@ -87,14 +87,14 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 ## 📡 N E W S
 
 <!-- releases starts -->
-- **[hypercolor v0.3.2](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.3.2)** · Aug 16 · Excessively glorious RGB orchestration for Linux, Windows, and macOS
+- **[hypercolor-hass v0.2.1](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.2.1)** · Sep 2 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
+- **[hypercolor v0.4.0](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.4.0)** · Sep 2 · Excessively glorious RGB orchestration for Linux, Windows, and macOS
+- **[prezzer v0.2.0](https://github.com/hyperb1iss/prezzer/releases/tag/v0.2.0)** · Sep 1 · Build cinematic, interactive presentations with Bun, React, and one-file offline…
 - **[sibyl v1.2.2](https://github.com/hyperb1iss/sibyl/releases/tag/v1.2.2)** · Aug 14 · Collective intelligence runtime for AI agents. Knowledge graph + persistent memory
-- **[hypercolor-hass v0.2.0](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.2.0)** · Aug 11 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
 - **[unifly v0.10.0](https://github.com/hyperb1iss/unifly/releases/tag/v0.10.0)** · Aug 7 · Elegant UniFi network management CLI & TUI - for humans and agents
 - **[silkcircuit-theme v1.0.1](https://github.com/hyperb1iss/silkcircuit-theme/releases/tag/v1.0.1)** · Jun 28 · SilkCircuit: A Neon Dream for Home Assistant
 - **[opaline v0.4.1](https://github.com/hyperb1iss/opaline/releases/tag/v0.4.1)** · May 20 · A token-based theme engine for Rust TUI applications
 - **[git-iris v2.1.0](https://github.com/hyperb1iss/git-iris/releases/tag/v2.1.0)** · May 20 · An intelligent agent that understands your code and crafts perfect Git artifacts
-- **[signalrgb-homeassistant v1.1.0](https://github.com/hyperb1iss/signalrgb-homeassistant/releases/tag/v1.1.0)** · Apr 8 · Transform your smart home lighting with the power of SignalRGB, now integrated…
 <!-- releases ends -->
 
 <sub>Refreshed every six hours from GitHub releases. Everything older is on the <a href="https://github.com/hyperb1iss?tab=repositories&sort=pushed">repositories tab</a>.</sub>
