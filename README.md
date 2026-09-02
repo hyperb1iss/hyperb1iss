@@ -87,6 +87,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 ## 📡 N E W S
 
 <!-- releases starts -->
+- **[silkcircuit v2.0.0](https://github.com/hyperb1iss/silkcircuit/releases/tag/v2.0.0)** · Sep 2 · Electric meets elegant. A vibrant cyberpunk color system for Neovim, VS Code…
 - **[hypercolor-hass v0.2.1](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.2.1)** · Sep 2 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
 - **[hypercolor v0.4.0](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.4.0)** · Sep 2 · Excessively glorious RGB orchestration for Linux, Windows, and macOS
 - **[prezzer v0.2.0](https://github.com/hyperb1iss/prezzer/releases/tag/v0.2.0)** · Sep 1 · Build cinematic, interactive presentations with Bun, React, and one-file offline…
@@ -94,7 +95,6 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 - **[unifly v0.10.0](https://github.com/hyperb1iss/unifly/releases/tag/v0.10.0)** · Aug 7 · Elegant UniFi network management CLI & TUI - for humans and agents
 - **[silkcircuit-theme v1.0.1](https://github.com/hyperb1iss/silkcircuit-theme/releases/tag/v1.0.1)** · Jun 28 · SilkCircuit: A Neon Dream for Home Assistant
 - **[opaline v0.4.1](https://github.com/hyperb1iss/opaline/releases/tag/v0.4.1)** · May 20 · A token-based theme engine for Rust TUI applications
-- **[git-iris v2.1.0](https://github.com/hyperb1iss/git-iris/releases/tag/v2.1.0)** · May 20 · An intelligent agent that understands your code and crafts perfect Git artifacts
 <!-- releases ends -->
 
 <sub>Refreshed every six hours from GitHub releases. Everything older is on the <a href="https://github.com/hyperb1iss?tab=repositories&sort=pushed">repositories tab</a>.</sub>
