@@ -31,7 +31,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
     <td width="50%" valign="top">
       <h3>🔮 <a href="https://github.com/hyperb1iss/sibyl">sibyl</a></h3>
       <p>One CLI, one graph, every AI tool you use sharing memory. Cross-agent persistent memory for coding assistants, with a knowledge graph, task coordination, and source-preserving provenance. Self-hosted and yours to keep.</p>
-      <sub>Python · <!-- v:sibyl -->v1.3.1<!-- /v:sibyl --> · MCP + CLI</sub>
+      <sub>Python · <!-- v:sibyl -->v1.3.2<!-- /v:sibyl --> · MCP + CLI</sub>
     </td>
   </tr>
   <tr>
@@ -87,7 +87,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 ## 📡 N E W S
 
 <!-- releases starts -->
-- **[sibyl v1.3.1](https://github.com/hyperb1iss/sibyl/releases/tag/v1.3.1)** · Sep 3 · Collective intelligence runtime for AI agents. Knowledge graph + persistent memory
+- **[sibyl v1.3.2](https://github.com/hyperb1iss/sibyl/releases/tag/v1.3.2)** · Sep 4 · Collective intelligence runtime for AI agents. Knowledge graph + persistent memory
 - **[opaline v0.4.2](https://github.com/hyperb1iss/opaline/releases/tag/v0.4.2)** · Sep 2 · A token-based theme engine for Rust TUI applications
 - **[silkcircuit v2.0.0](https://github.com/hyperb1iss/silkcircuit/releases/tag/v2.0.0)** · Sep 2 · Electric meets elegant. A vibrant cyberpunk color system for Neovim, VS Code…
 - **[hypercolor-hass v0.2.1](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.2.1)** · Sep 2 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
