@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://hyperbliss.tech"><img src="assets/hero.svg" alt="hyperb1iss: principal engineer, open-source maker" width="100%"></a>
+  <a href="https://hyperbliss.tech"><img src="assets/hero.svg" alt="hyperb1iss: creative technologist, open-source maker" width="100%"></a>
 </p>
 
 <p align="center">

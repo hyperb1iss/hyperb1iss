@@ -59,7 +59,7 @@ for i, (x, y, color) in enumerate(PADS):
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-labelledby="title desc">
 <title id="title">hyperb1iss</title>
-<desc id="desc">Stefanie Jane, principal engineer and open-source maker. RGB engines, agent memory, terminal UIs, SilkCircuit.</desc>
+<desc id="desc">Stefanie Jane, creative technologist and open-source maker. RGB engines, agent memory, terminal UIs, SilkCircuit.</desc>
 <defs>
 <style>
 @font-face{{font-family:"JBM";font-weight:700;src:url(data:font/woff2;base64,{bold}) format("woff2")}}
@@ -120,7 +120,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{
 <rect class="cursor" x="662" y="102" width="30" height="76" rx="2"/>
 
 <text class="mono prompt" x="78" y="226">$</text>
-<text class="mono tag" x="104" y="226">principal engineer · open-source maker</text>
+<text class="mono tag" x="104" y="226">creative technologist · open-source maker</text>
 <text class="mono sub" x="80" y="266">rgb engines · agent memory · terminal uis · silkcircuit</text>
 
 <rect x="0" y="{H - 3}" width="{W}" height="3" fill="url(#edge)"/>
