@@ -74,7 +74,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
     <td width="50%" valign="top">
       <h3>🎹 <a href="https://github.com/hyperb1iss/blocksd">blocksd</a></h3>
       <p>Linux daemon for ROLI Blocks. Performs the MIDI SysEx handshake the hardware needs to stay awake, then exposes topology, LED control, and touch events. The Linux support ROLI never shipped.</p>
-      <sub>Python · <!-- v:blocksd -->v0.5.0<!-- /v:blocksd --> · PyPI</sub>
+      <sub>Python · <!-- v:blocksd -->v0.6.0<!-- /v:blocksd --> · PyPI</sub>
     </td>
     <td width="50%" valign="top">
       <h3>🛠️ <a href="https://github.com/hyperb1iss/dotfiles">dotfiles</a></h3>
@@ -87,7 +87,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 ## 📡 N E W S
 
 <!-- releases starts -->
-- **[blocksd v0.5.0](https://github.com/hyperb1iss/blocksd/releases/tag/v0.5.0)** · Sep 6 · Linux daemon for ROLI Blocks devices :: topology, keepalive, LED control
+- **[blocksd v0.6.0](https://github.com/hyperb1iss/blocksd/releases/tag/v0.6.0)** · Sep 6 · OSS support for ROLI Blocks devices :: topology, keepalive, LED control
 - **[sibyl v1.3.2](https://github.com/hyperb1iss/sibyl/releases/tag/v1.3.2)** · Sep 4 · Collective intelligence runtime for AI agents. Knowledge graph + persistent memory
 - **[opaline v0.4.2](https://github.com/hyperb1iss/opaline/releases/tag/v0.4.2)** · Sep 2 · A token-based theme engine for Rust TUI applications
 - **[silkcircuit v2.0.0](https://github.com/hyperb1iss/silkcircuit/releases/tag/v2.0.0)** · Sep 2 · Electric meets elegant. A vibrant cyberpunk color system for Neovim, VS Code…
