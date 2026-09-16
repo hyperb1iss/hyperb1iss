@@ -87,7 +87,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 ## 📡 N E W S
 
 <!-- releases starts -->
-- **[silkcircuit v2.1.0](https://github.com/hyperb1iss/silkcircuit/releases/tag/v2.1.0)** · Sep 15 · Electric meets elegant. A vibrant cyberpunk color system for Neovim, VS Code…
+- **[silkcircuit v2.2.0](https://github.com/hyperb1iss/silkcircuit/releases/tag/v2.2.0)** · Sep 16 · Electric meets elegant. A vibrant cyberpunk color system for Neovim, VS Code…
 - **[hypercolor v0.5.1](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.5.1)** · Sep 11 · Excessively glorious RGB orchestration for Linux, Windows, and macOS
 - **[hypercolor-hass v0.3.0](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.3.0)** · Sep 9 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
 - **[blocksd v0.6.0](https://github.com/hyperb1iss/blocksd/releases/tag/v0.6.0)** · Sep 6 · OSS support for ROLI Blocks devices :: topology, keepalive, LED control
