@@ -31,7 +31,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
     <td width="50%" valign="top">
       <h3>🔮 <a href="https://github.com/hyperb1iss/sibyl">sibyl</a></h3>
       <p>One CLI, one graph, every AI tool you use sharing memory. Cross-agent persistent memory for coding assistants, with a knowledge graph, task coordination, and source-preserving provenance. Self-hosted and yours to keep.</p>
-      <sub>Python · <!-- v:sibyl -->v1.3.2<!-- /v:sibyl --> · MCP + CLI</sub>
+      <sub>Python · <!-- v:sibyl -->v1.4.0<!-- /v:sibyl --> · MCP + CLI</sub>
     </td>
   </tr>
   <tr>
@@ -87,11 +87,11 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 ## 📡 N E W S
 
 <!-- releases starts -->
+- **[sibyl v1.4.0](https://github.com/hyperb1iss/sibyl/releases/tag/v1.4.0)** · Sep 20 · Collective intelligence runtime for AI agents. Knowledge graph + persistent memory
 - **[silkcircuit v2.2.0](https://github.com/hyperb1iss/silkcircuit/releases/tag/v2.2.0)** · Sep 16 · Electric meets elegant. A vibrant cyberpunk color system for Neovim, VS Code…
 - **[hypercolor v0.5.1](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.5.1)** · Sep 11 · Excessively glorious RGB orchestration for Linux, Windows, and macOS
 - **[hypercolor-hass v0.3.0](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.3.0)** · Sep 9 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
 - **[blocksd v0.6.0](https://github.com/hyperb1iss/blocksd/releases/tag/v0.6.0)** · Sep 6 · OSS support for ROLI Blocks devices :: topology, keepalive, LED control
-- **[sibyl v1.3.2](https://github.com/hyperb1iss/sibyl/releases/tag/v1.3.2)** · Sep 4 · Collective intelligence runtime for AI agents. Knowledge graph + persistent memory
 - **[opaline v0.4.2](https://github.com/hyperb1iss/opaline/releases/tag/v0.4.2)** · Sep 2 · A token-based theme engine for Rust TUI applications
 - **[prezzer v0.2.0](https://github.com/hyperb1iss/prezzer/releases/tag/v0.2.0)** · Sep 1 · Build cinematic, interactive presentations with Bun, React, and one-file offline…
 - **[unifly v0.10.0](https://github.com/hyperb1iss/unifly/releases/tag/v0.10.0)** · Aug 7 · Elegant UniFi network management CLI & TUI - for humans and agents
