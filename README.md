@@ -87,7 +87,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 ## 📡 N E W S
 
 <!-- releases starts -->
-- **[sibyl v1.4.6](https://github.com/hyperb1iss/sibyl/releases/tag/v1.4.6)** · Oct 7 · Collective intelligence runtime for AI agents. Knowledge graph + persistent memory
+- **[sibyl v1.4.6](https://github.com/hyperb1iss/sibyl/releases/tag/v1.4.6)** · Oct 7 · Cross-agent memory for AI coding tools: one self-hostable knowledge graph shared by…
 - **[hypercolor v0.6.2](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.6.2)** · Oct 7 · Epic RGB lighting orchestration for Linux, Windows, and macOS
 - **[hypercolor-hass v0.5.0](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.5.0)** · Sep 30 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
 - **[silkcircuit v2.2.0](https://github.com/hyperb1iss/silkcircuit/releases/tag/v2.2.0)** · Sep 16 · Electric meets elegant. A vibrant cyberpunk color system for Neovim, VS Code…
