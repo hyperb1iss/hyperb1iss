@@ -50,7 +50,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
     <td width="50%" valign="top">
       <h3>🌐 <a href="https://github.com/hyperb1iss/unifly">unifly</a></h3>
       <p>UniFi network management for humans and agents. A full command set for scripting plus a live ratatui dashboard, both driven by one async engine that speaks every UniFi API.</p>
-      <sub>Rust · <!-- v:unifly -->v0.10.0<!-- /v:unifly --> · crates.io</sub>
+      <sub>Rust · <!-- v:unifly -->v0.11.0<!-- /v:unifly --> · crates.io</sub>
     </td>
     <td width="50%" valign="top">
       <h3>✦ <a href="https://github.com/hyperb1iss/opaline">opaline</a></h3>
@@ -87,6 +87,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 ## 📡 N E W S
 
 <!-- releases starts -->
+- **[unifly v0.11.0](https://github.com/hyperb1iss/unifly/releases/tag/v0.11.0)** · Oct 12 · Elegant UniFi network management CLI & TUI - for humans and agents
 - **[sibyl v1.4.10](https://github.com/hyperb1iss/sibyl/releases/tag/v1.4.10)** · Oct 12 · Cross-agent memory for AI coding tools: one self-hostable knowledge graph shared by…
 - **[hypercolor v0.6.3](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.6.3)** · Oct 9 · Epic RGB lighting orchestration for Linux, Windows, and macOS
 - **[hypercolor-hass v0.5.0](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.5.0)** · Sep 30 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
@@ -94,7 +95,6 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 - **[blocksd v0.6.0](https://github.com/hyperb1iss/blocksd/releases/tag/v0.6.0)** · Sep 6 · OSS support for ROLI Blocks devices :: topology, keepalive, LED control
 - **[opaline v0.4.2](https://github.com/hyperb1iss/opaline/releases/tag/v0.4.2)** · Sep 2 · A token-based theme engine for Rust TUI applications
 - **[prezzer v0.2.0](https://github.com/hyperb1iss/prezzer/releases/tag/v0.2.0)** · Sep 1 · Build cinematic, interactive presentations with Bun, React, and one-file offline…
-- **[unifly v0.10.0](https://github.com/hyperb1iss/unifly/releases/tag/v0.10.0)** · Aug 7 · Elegant UniFi network management CLI & TUI - for humans and agents
 <!-- releases ends -->
 
 <sub>Refreshed every six hours from GitHub releases. Everything older is on the <a href="https://github.com/hyperb1iss?tab=repositories&sort=pushed">repositories tab</a>.</sub>
