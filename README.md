@@ -26,7 +26,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
     <td width="50%" valign="top">
       <h3>🪩 <a href="https://github.com/hyperb1iss/hypercolor">hypercolor</a></h3>
       <p>Open-source RGB lighting engine for Linux, Windows, and macOS. Effects are web pages, rendered by an embedded Servo browser, composited on the GPU by SparkleFlinger, and sampled onto every LED you own, every frame.</p>
-      <sub>Rust · <!-- v:hypercolor -->v0.7.0<!-- /v:hypercolor --> · <a href="https://hypercolor.lighting">hypercolor.lighting</a></sub>
+      <sub>Rust · <!-- v:hypercolor -->v0.7.1<!-- /v:hypercolor --> · <a href="https://hypercolor.lighting">hypercolor.lighting</a></sub>
     </td>
     <td width="50%" valign="top">
       <h3>🔮 <a href="https://github.com/hyperb1iss/sibyl">sibyl</a></h3>
@@ -87,8 +87,8 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 ## 📡 N E W S
 
 <!-- releases starts -->
+- **[hypercolor v0.7.1](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.7.1)** · Oct 20 · Epic RGB lighting orchestration for Linux, Windows, and macOS
 - **[hypercolor-hass v0.6.0](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.6.0)** · Oct 13 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
-- **[hypercolor v0.7.0](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.7.0)** · Oct 13 · Epic RGB lighting orchestration for Linux, Windows, and macOS
 - **[unifly v0.11.0](https://github.com/hyperb1iss/unifly/releases/tag/v0.11.0)** · Oct 12 · Elegant UniFi network management CLI & TUI - for humans and agents
 - **[sibyl v1.4.10](https://github.com/hyperb1iss/sibyl/releases/tag/v1.4.10)** · Oct 12 · Cross-agent memory for AI coding tools: one self-hostable knowledge graph shared by…
 - **[silkcircuit v2.2.0](https://github.com/hyperb1iss/silkcircuit/releases/tag/v2.2.0)** · Sep 16 · Electric meets elegant. A vibrant cyberpunk color system for Neovim, VS Code…
