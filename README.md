@@ -87,6 +87,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 ## 📡 N E W S
 
 <!-- releases starts -->
+- **[hyperskills v3.13.0](https://github.com/hyperb1iss/hyperskills/releases/tag/v3.13.0)** · Oct 21 · My collection of agent skills for a variety of tasks
 - **[hypercolor v0.7.1](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.7.1)** · Oct 20 · Epic RGB lighting orchestration for Linux, Windows, and macOS
 - **[hypercolor-hass v0.6.0](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.6.0)** · Oct 13 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
 - **[unifly v0.11.0](https://github.com/hyperb1iss/unifly/releases/tag/v0.11.0)** · Oct 12 · Elegant UniFi network management CLI & TUI - for humans and agents
@@ -94,7 +95,6 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 - **[silkcircuit v2.2.0](https://github.com/hyperb1iss/silkcircuit/releases/tag/v2.2.0)** · Sep 16 · Electric meets elegant. A vibrant cyberpunk color system for Neovim, VS Code…
 - **[blocksd v0.6.0](https://github.com/hyperb1iss/blocksd/releases/tag/v0.6.0)** · Sep 6 · OSS support for ROLI Blocks devices :: topology, keepalive, LED control
 - **[opaline v0.4.2](https://github.com/hyperb1iss/opaline/releases/tag/v0.4.2)** · Sep 2 · A token-based theme engine for Rust TUI applications
-- **[prezzer v0.2.0](https://github.com/hyperb1iss/prezzer/releases/tag/v0.2.0)** · Sep 1 · Build cinematic, interactive presentations with Bun, React, and one-file offline…
 <!-- releases ends -->
 
 <sub>Refreshed every six hours from GitHub releases. Everything older is on the <a href="https://github.com/hyperb1iss?tab=repositories&sort=pushed">repositories tab</a>.</sub>
