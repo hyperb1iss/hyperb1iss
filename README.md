@@ -50,7 +50,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
     <td width="50%" valign="top">
       <h3>🌐 <a href="https://github.com/hyperb1iss/unifly">unifly</a></h3>
       <p>UniFi network management for humans and agents. A full command set for scripting plus a live ratatui dashboard, both driven by one async engine that speaks every UniFi API.</p>
-      <sub>Rust · <!-- v:unifly -->v0.11.0<!-- /v:unifly --> · crates.io</sub>
+      <sub>Rust · <!-- v:unifly -->v0.12.0<!-- /v:unifly --> · crates.io</sub>
     </td>
     <td width="50%" valign="top">
       <h3>✦ <a href="https://github.com/hyperb1iss/opaline">opaline</a></h3>
@@ -87,10 +87,10 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 ## 📡 N E W S
 
 <!-- releases starts -->
+- **[unifly v0.12.0](https://github.com/hyperb1iss/unifly/releases/tag/v0.12.0)** · Oct 25 · Elegant UniFi network management CLI & TUI - for humans and agents
 - **[hypercolor v0.7.3](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.7.3)** · Oct 25 · Epic RGB lighting orchestration for Linux, Windows, and macOS
 - **[hyperskills v3.13.0](https://github.com/hyperb1iss/hyperskills/releases/tag/v3.13.0)** · Oct 21 · My collection of agent skills for a variety of tasks
 - **[hypercolor-hass v0.6.0](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.6.0)** · Oct 13 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
-- **[unifly v0.11.0](https://github.com/hyperb1iss/unifly/releases/tag/v0.11.0)** · Oct 12 · Elegant UniFi network management CLI & TUI - for humans and agents
 - **[sibyl v1.4.10](https://github.com/hyperb1iss/sibyl/releases/tag/v1.4.10)** · Oct 12 · Cross-agent memory for AI coding tools: one self-hostable knowledge graph shared by…
 - **[silkcircuit v2.2.0](https://github.com/hyperb1iss/silkcircuit/releases/tag/v2.2.0)** · Sep 16 · Electric meets elegant. A vibrant cyberpunk color system for Neovim, VS Code…
 - **[blocksd v0.6.0](https://github.com/hyperb1iss/blocksd/releases/tag/v0.6.0)** · Sep 6 · OSS support for ROLI Blocks devices :: topology, keepalive, LED control
