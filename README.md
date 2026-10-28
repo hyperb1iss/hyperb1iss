@@ -31,7 +31,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
     <td width="50%" valign="top">
       <h3>🔮 <a href="https://github.com/hyperb1iss/sibyl">sibyl</a></h3>
       <p>One CLI, one graph, every AI tool you use sharing memory. Cross-agent persistent memory for coding assistants, with a knowledge graph, task coordination, and source-preserving provenance. Self-hosted and yours to keep.</p>
-      <sub>Python · <!-- v:sibyl -->v1.4.10<!-- /v:sibyl --> · MCP + CLI</sub>
+      <sub>Python · <!-- v:sibyl -->v1.4.11<!-- /v:sibyl --> · MCP + CLI</sub>
     </td>
   </tr>
   <tr>
@@ -87,14 +87,14 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 ## 📡 N E W S
 
 <!-- releases starts -->
-- **[hyper-light-card v1.1.1](https://github.com/hyperb1iss/hyper-light-card/releases/tag/v1.1.1)** · Oct 27 · A dazzling custom card for controlling RGB orchestrators (Hypercolor, SignalRGB)…
-- **[hypercolor-hass v0.7.0](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.7.0)** · Oct 27 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
+- **[hyperskills v3.13.3](https://github.com/hyperb1iss/hyperskills/releases/tag/v3.13.3)** · Oct 28 · My collection of agent skills for a variety of tasks
+- **[sibyl v1.4.11](https://github.com/hyperb1iss/sibyl/releases/tag/v1.4.11)** · Oct 27 · Cross-agent memory for AI coding tools: one self-hostable knowledge graph shared by…
+- **[signalrgb-homeassistant v1.2.0](https://github.com/hyperb1iss/signalrgb-homeassistant/releases/tag/v1.2.0)** · Oct 27 · Transform your smart home lighting with the power of SignalRGB, now integrated…
+- **[hyper-light-card v1.2.1](https://github.com/hyperb1iss/hyper-light-card/releases/tag/v1.2.1)** · Oct 27 · A dazzling custom card for controlling RGB orchestrators (Hypercolor, SignalRGB)…
+- **[hypercolor-hass v0.7.1](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.7.1)** · Oct 27 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
 - **[hypercolor v0.8.0](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.8.0)** · Oct 26 · Epic RGB lighting orchestration for Linux, Windows, and macOS
 - **[unifly v0.12.0](https://github.com/hyperb1iss/unifly/releases/tag/v0.12.0)** · Oct 25 · Elegant UniFi network management CLI & TUI - for humans and agents
-- **[hyperskills v3.13.0](https://github.com/hyperb1iss/hyperskills/releases/tag/v3.13.0)** · Oct 21 · My collection of agent skills for a variety of tasks
-- **[sibyl v1.4.10](https://github.com/hyperb1iss/sibyl/releases/tag/v1.4.10)** · Oct 12 · Cross-agent memory for AI coding tools: one self-hostable knowledge graph shared by…
 - **[silkcircuit v2.2.0](https://github.com/hyperb1iss/silkcircuit/releases/tag/v2.2.0)** · Sep 16 · Electric meets elegant. A vibrant cyberpunk color system for Neovim, VS Code…
-- **[blocksd v0.6.0](https://github.com/hyperb1iss/blocksd/releases/tag/v0.6.0)** · Sep 6 · OSS support for ROLI Blocks devices :: topology, keepalive, LED control
 <!-- releases ends -->
 
 <sub>Refreshed every six hours from GitHub releases. Everything older is on the <a href="https://github.com/hyperb1iss?tab=repositories&sort=pushed">repositories tab</a>.</sub>
