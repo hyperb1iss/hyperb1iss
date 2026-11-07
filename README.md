@@ -50,7 +50,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
     <td width="50%" valign="top">
       <h3>🌐 <a href="https://github.com/hyperb1iss/unifly">unifly</a></h3>
       <p>UniFi network management for humans and agents. A full command set for scripting plus a live ratatui dashboard, both driven by one async engine that speaks every UniFi API.</p>
-      <sub>Rust · <!-- v:unifly -->v0.12.0<!-- /v:unifly --> · crates.io</sub>
+      <sub>Rust · <!-- v:unifly -->v0.12.1<!-- /v:unifly --> · crates.io</sub>
     </td>
     <td width="50%" valign="top">
       <h3>✦ <a href="https://github.com/hyperb1iss/opaline">opaline</a></h3>
@@ -87,13 +87,13 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 ## 📡 N E W S
 
 <!-- releases starts -->
+- **[unifly v0.12.1](https://github.com/hyperb1iss/unifly/releases/tag/v0.12.1)** · Nov 6 · Elegant UniFi network management CLI & TUI - for humans and agents
 - **[sibyl v1.5.0-rc.1](https://github.com/hyperb1iss/sibyl/releases/tag/v1.5.0-rc.1)** · Nov 6 · Cross-agent memory for AI coding tools: one self-hostable knowledge graph shared by…
 - **[hypercolor v0.9.0](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.9.0)** · Nov 3 · Epic RGB lighting orchestration for Linux, Windows, and macOS
 - **[hypercolor-hass v0.7.2](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.7.2)** · Oct 28 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
 - **[hyperskills v3.13.3](https://github.com/hyperb1iss/hyperskills/releases/tag/v3.13.3)** · Oct 28 · My collection of agent skills for a variety of tasks
 - **[signalrgb-homeassistant v1.2.0](https://github.com/hyperb1iss/signalrgb-homeassistant/releases/tag/v1.2.0)** · Oct 27 · Transform your smart home lighting with the power of SignalRGB, now integrated…
 - **[hyper-light-card v1.2.1](https://github.com/hyperb1iss/hyper-light-card/releases/tag/v1.2.1)** · Oct 27 · A dazzling custom card for controlling RGB orchestrators (Hypercolor, SignalRGB)…
-- **[unifly v0.12.0](https://github.com/hyperb1iss/unifly/releases/tag/v0.12.0)** · Oct 25 · Elegant UniFi network management CLI & TUI - for humans and agents
 - **[silkcircuit v2.2.0](https://github.com/hyperb1iss/silkcircuit/releases/tag/v2.2.0)** · Sep 16 · Electric meets elegant. A vibrant cyberpunk color system for Neovim, VS Code…
 <!-- releases ends -->
 
