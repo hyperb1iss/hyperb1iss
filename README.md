@@ -74,7 +74,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
     <td width="50%" valign="top">
       <h3>🎹 <a href="https://github.com/hyperb1iss/blocksd">blocksd</a></h3>
       <p>Linux daemon for ROLI Blocks. Performs the MIDI SysEx handshake the hardware needs to stay awake, then exposes topology, LED control, and touch events. The Linux support ROLI never shipped.</p>
-      <sub>Python · <!-- v:blocksd -->v0.6.0<!-- /v:blocksd --> · PyPI</sub>
+      <sub>Python · <!-- v:blocksd -->v0.7.0<!-- /v:blocksd --> · PyPI</sub>
     </td>
     <td width="50%" valign="top">
       <h3>🛠️ <a href="https://github.com/hyperb1iss/dotfiles">dotfiles</a></h3>
@@ -87,6 +87,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 ## 📡 N E W S
 
 <!-- releases starts -->
+- **[blocksd v0.7.0](https://github.com/hyperb1iss/blocksd/releases/tag/v0.7.0)** · Nov 8 · OSS support for ROLI Blocks devices :: topology, keepalive, LED control
 - **[unifly v0.13.0](https://github.com/hyperb1iss/unifly/releases/tag/v0.13.0)** · Nov 7 · Elegant UniFi network management CLI & TUI - for humans and agents
 - **[sibyl v1.5.0-rc.1](https://github.com/hyperb1iss/sibyl/releases/tag/v1.5.0-rc.1)** · Nov 6 · Cross-agent memory for AI coding tools: one self-hostable knowledge graph shared by…
 - **[hypercolor v0.9.0](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.9.0)** · Nov 3 · Epic RGB lighting orchestration for Linux, Windows, and macOS
@@ -94,7 +95,6 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 - **[hyperskills v3.13.3](https://github.com/hyperb1iss/hyperskills/releases/tag/v3.13.3)** · Oct 28 · My collection of agent skills for a variety of tasks
 - **[signalrgb-homeassistant v1.2.0](https://github.com/hyperb1iss/signalrgb-homeassistant/releases/tag/v1.2.0)** · Oct 27 · Transform your smart home lighting with the power of SignalRGB, now integrated…
 - **[hyper-light-card v1.2.1](https://github.com/hyperb1iss/hyper-light-card/releases/tag/v1.2.1)** · Oct 27 · A dazzling custom card for controlling RGB orchestrators (Hypercolor, SignalRGB)…
-- **[silkcircuit v2.2.0](https://github.com/hyperb1iss/silkcircuit/releases/tag/v2.2.0)** · Sep 16 · Electric meets elegant. A vibrant cyberpunk color system for Neovim, VS Code…
 <!-- releases ends -->
 
 <sub>Refreshed every six hours from GitHub releases. Everything older is on the <a href="https://github.com/hyperb1iss?tab=repositories&sort=pushed">repositories tab</a>.</sub>
