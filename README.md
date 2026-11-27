@@ -26,7 +26,7 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
     <td width="50%" valign="top">
       <h3>🪩 <a href="https://github.com/hyperb1iss/hypercolor">hypercolor</a></h3>
       <p>Open-source RGB lighting engine for Linux, Windows, and macOS. Effects are web pages, rendered by an embedded Servo browser, composited on the GPU by SparkleFlinger, and sampled onto every LED you own, every frame.</p>
-      <sub>Rust · <!-- v:hypercolor -->v0.9.0<!-- /v:hypercolor --> · <a href="https://hypercolor.lighting">hypercolor.lighting</a></sub>
+      <sub>Rust · <!-- v:hypercolor -->v0.10.0<!-- /v:hypercolor --> · <a href="https://hypercolor.lighting">hypercolor.lighting</a></sub>
     </td>
     <td width="50%" valign="top">
       <h3>🔮 <a href="https://github.com/hyperb1iss/sibyl">sibyl</a></h3>
@@ -87,12 +87,12 @@ nerd credz: I created [CyanogenMod](https://en.wikipedia.org/wiki/CyanogenMod), 
 ## 📡 N E W S
 
 <!-- releases starts -->
+- **[hypercolor-hass v0.8.0](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.8.0)** · Nov 26 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
+- **[hypercolor v0.10.0](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.10.0)** · Nov 26 · Epic RGB lighting orchestration for Linux, Windows, and macOS
 - **[sibyl v1.5.1](https://github.com/hyperb1iss/sibyl/releases/tag/v1.5.1)** · Nov 25 · Cross-agent memory for AI coding tools: one self-hostable knowledge graph shared by…
 - **[unifly v0.15.0](https://github.com/hyperb1iss/unifly/releases/tag/v0.15.0)** · Nov 16 · Elegant UniFi network management CLI & TUI - for humans and agents
 - **[hyperskills v3.13.4](https://github.com/hyperb1iss/hyperskills/releases/tag/v3.13.4)** · Nov 16 · My collection of agent skills for a variety of tasks
 - **[blocksd v0.8.0](https://github.com/hyperb1iss/blocksd/releases/tag/v0.8.0)** · Nov 14 · OSS support for ROLI Blocks devices :: topology, keepalive, LED control
-- **[hypercolor v0.9.0](https://github.com/hyperb1iss/hypercolor/releases/tag/v0.9.0)** · Nov 3 · Epic RGB lighting orchestration for Linux, Windows, and macOS
-- **[hypercolor-hass v0.7.2](https://github.com/hyperb1iss/hypercolor-hass/releases/tag/v0.7.2)** · Oct 28 · Hypercolor RGB lighting orchestration as a first-class Home Assistant hub
 - **[signalrgb-homeassistant v1.2.0](https://github.com/hyperb1iss/signalrgb-homeassistant/releases/tag/v1.2.0)** · Oct 27 · Transform your smart home lighting with the power of SignalRGB, now integrated…
 - **[hyper-light-card v1.2.1](https://github.com/hyperb1iss/hyper-light-card/releases/tag/v1.2.1)** · Oct 27 · A dazzling custom card for controlling RGB orchestrators (Hypercolor, SignalRGB)…
 <!-- releases ends -->
